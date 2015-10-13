@@ -4,8 +4,8 @@
 //numbers in mm
 substrate=28; //substrate len,wid
 substrateBuffer=1; //some tolerance for slightlyBiggerSubstrates
-aboveShelf=23; //height above shelf
-belowShelf=25; //height below shelf
+aboveShelf=24; //height above shelf
+belowShelf=24; //height below shelf
 
 wallThickness=3; //top part wall thickness
 boardBuffer=1; //tolerance around board
