@@ -18,9 +18,13 @@ totalHeight=belowShelf+aboveShelf;
 cubeInner=board+boardBuffer;
 cubeOuter=cubeInner+wallThickness;
 render() difference(){
+    //start with chunk
     cube([cubeOuter,cubeOuter,totalHeight],center=true);
+    //subtract region above shelf
     translate([0,0,belowShelf/2]) cube([cubeInner,cubeInner,aboveShelf],center=true);
+    //subtract region below shelf
     translate([0,0,-aboveShelf/2]) cube([cubeInner-shelf,cubeInner-shelf,belowShelf],center=true);
-    translate([cubeInner/2,0,0]) cube([cubeInner,sideOpening,totalHeight],center=true);
-    translate([-cubeInner/2,0,-clipDown]) cube([cubeInner,clipSlot,totalHeight],center=true);
+    //subtract clip & ribbon cable space
+    translate([0,0,-clipDown]) cube([cubeOuter,sideOpening,totalHeight],center=true);
+    //translate([-cubeInner/2,0,-clipDown]) cube([cubeInner,clipSlot,totalHeight],center=true);
 }
