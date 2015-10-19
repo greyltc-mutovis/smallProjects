@@ -17,6 +17,7 @@ sideOpening=25; //width of opening in sides for clip/ribbon cable
 clipDown=35; // clip slot offset from top
 substrate=25; // len,wid of substrate
 subsTol=1; // tolerance around substrate
+capTol=0.2; //tolerance for cap fitting
 wingWidth=10; //
 wingLength=10; //
 
