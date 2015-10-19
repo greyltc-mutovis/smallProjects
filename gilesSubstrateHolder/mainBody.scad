@@ -16,7 +16,7 @@ union(){
         //subtract region above shelf
         translate([0,0,belowShelf/2]) cube([cubeInner,cubeInner,aboveShelf],center=true);
         //subtract region below shelf
-        #translate([0,0,-aboveShelf/2]) cube([sideOpening,sideOpening,belowShelf],center=true);
+        translate([0,0,-aboveShelf/2]) cube([cubeInner-shelf*2,cubeInner-shelf*2,belowShelf],center=true);
         //subtract clip & ribbon cable space
         translate([0,0,-clipDown]){
             cube([cubeOuter+1,sideOpening,totalHeight],center=true);
