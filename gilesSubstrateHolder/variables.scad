@@ -4,7 +4,7 @@
 //numbers in mm
 
 substrate=28; //substrate len,wid
-substrateBuffer=1; //some tolerance for slightlyBiggerSubstrates
+substrateBuffer=0.5; //some tolerance for slightlyBiggerSubstrates
 aboveShelf=24; //height above shelf
 belowShelf=24; //height below shelf
 
@@ -14,13 +14,14 @@ board=36; //board len, wid
 window=23; //window len,wid
 sideOpening=25; //width of opening in sides for clip/ribbon cable
 clipDown=35; // clip slot offset from top
+smallShelf=3;
 
 subsTol=1; // tolerance around substrate
 capTol=0.2; //tolerance for cap fitting
 
 wingWidth=10; //
 wingLength=10; //
-wingTol=1;
+wingTol=3;
 
 totalHeight=belowShelf+aboveShelf;
 cubeInner=board+boardBuffer;
