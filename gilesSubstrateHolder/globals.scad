@@ -19,7 +19,9 @@ smallShelf=3; // width of small shelf (& additional wall thickness of bottom hal
 capTol=0.2; //tolerance for cap fitting
 window=23; //window len,wid
 substrate=28; //substrate len,wid
-subsTol=0.5; // tolerance around substrate
+subsTol=2; // tolerance around substrate
+substrateOffsetX=1; //substrate offset
+substrateOffsetY=1; //substrate offset
 
 wingWidth=10; //
 wingLength=10; //
