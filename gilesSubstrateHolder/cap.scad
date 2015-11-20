@@ -19,6 +19,6 @@ union() {
     translate([0, 0, -wallThickness])
     render() difference(){
         cube([cubeInner-capTol,cubeInner-capTol,wallThickness],center=true);
-        cube([substrate+subsTol,substrate+subsTol,wallThickness],center=true);
+        translate([substrateOffsetX,substrateOffsetY,0]) cube([substrate+subsTol,substrate+subsTol,wallThickness],center=true);
     }
 }
