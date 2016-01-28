@@ -95,6 +95,15 @@ motorXYOffset = 38.0330
 motor = STEP2Solid("665921.STP")
 motor = translate(motor,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
 
+carouselD = 192.4264
+carouselT = 3
+carouselZOffset = 5
+carousel = circle(carouselD/2)
+# TODO: cut square holes
+carousel = extrude(carousel,0,0,carouselT)
+carousel = translate(carousel,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+carouselZOffset)
+
+
 solid2STEP(topFlange, "output/topFlange.step")
 solid2STEP(body, "output/body.step")
 solid2STEP(vPortCap, "output/vPortCap.step")
@@ -102,5 +111,6 @@ solid2STEP(floatingPlate, "output/floatingPlate.step")
 solid2STEP(bottomFlange, "output/bottomFlange.step")
 solid2STEP(motor, "output/motor.step")
 solid2STEP(evapPlane, "output/evapPlane.step")
+solid2STEP(carousel, "output/carousel.step")
 
 
