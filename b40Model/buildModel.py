@@ -91,7 +91,9 @@ bottomFlange = translate(bottomFlange,0,0,-botFlangeThickness+lipAdjustHeight)
 
 evapPlane = translate(rectangle(evapDim,evapDim),-evapDim/2,-evapDim/2,plateHeight+lipAdjustHeight+botFlangeStep+plateThickness)
 
+motorXYOffset = 38.0330
 motor = STEP2Solid("665921.STP")
+motor = translate(motor,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
 
 solid2STEP(topFlange, "output/topFlange.step")
 solid2STEP(body, "output/body.step")
