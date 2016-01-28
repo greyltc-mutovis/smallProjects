@@ -54,6 +54,8 @@ vPortOuterD = 7.5 * 25.4
 vPortCapThickness = 20
 vportMinProtrusion = 10
 
+evapDim = 56
+
 bottomLip=extrude(circle(lipOuterD/2),0,0,lipHeight)
 bottomLip=difference(bottomLip,extrude(circle(lipInnerD/2),0,0,lipHeight))
 
@@ -82,15 +84,21 @@ topFlange = translate(topFlange,0,0,totalCylinderHeight)
 floatingPlate = circle(plateDiameter/2)
 floatingPlate = difference(floatingPlate,translate(rectangle(windowSquare,windowSquare),-windowSquare/2,-windowSquare/2,0))
 floatingPlate = extrude(floatingPlate,0,0,plateThickness)
-floatingPlate = translate(floatingPlate,0,0,plateHeight-lipAdjustHeight+botFlangeStep)
+floatingPlate = translate(floatingPlate,0,0,plateHeight+lipAdjustHeight+botFlangeStep)
 
 bottomFlange = union(cylinder(botFlangeOuterD/2,botFlangeThickness),translate(cone(stepStartD/2,stepEndD/2,botFlangeStep),0,0,botFlangeThickness))
 bottomFlange = translate(bottomFlange,0,0,-botFlangeThickness+lipAdjustHeight)
 
-solid2STEP(topFlange, "topFlange.step")
-solid2STEP(body, "body.step")
-solid2STEP(vPortCap, "vPortCap.step")
-solid2STEP(floatingPlate, "floatingPlate.step")
-solid2STEP(bottomFlange, "bottomFlange.step")
+evapPlane = translate(rectangle(evapDim,evapDim),-evapDim/2,-evapDim/2,plateHeight+lipAdjustHeight+botFlangeStep+plateThickness)
+
+motor = STEP2Solid("665921.STP")
+
+solid2STEP(topFlange, "output/topFlange.step")
+solid2STEP(body, "output/body.step")
+solid2STEP(vPortCap, "output/vPortCap.step")
+solid2STEP(floatingPlate, "output/floatingPlate.step")
+solid2STEP(bottomFlange, "output/bottomFlange.step")
+solid2STEP(motor, "output/motor.step")
+solid2STEP(evapPlane, "output/evapPlane.step")
 
 
