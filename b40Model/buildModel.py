@@ -7,9 +7,15 @@ import sys
 sys.path.append(FREECADPATH)
 
 # inline the ezFreeCAD functions
-import urllib
-(fn,hd) = urllib.urlretrieve('https://raw.githubusercontent.com/greysAcademicCode/heatedXYZ/master/python/ezFreeCAD/functions.py')
-execfile(fn)
+internet=False
+if internet:
+    import urllib
+    (fn,hd) = urllib.urlretrieve('https://raw.githubusercontent.com/greysAcademicCode/heatedXYZ/master/python/ezFreeCAD/functions.py')
+    execfile(fn)
+else:
+    pathToezFreecad="../../heatedXYZ/python/ezFreeCAD"
+    execfile(pathToezFreecad+"/functions.py")
+    
 
 # from measurements [mm]
 #top and bottom lips
@@ -110,10 +116,24 @@ carousel = circle(carouselD/2)
 carousel = extrude(carousel,0,0,carouselT)
 carousel = translate(carousel,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+carouselZOffset)
 
+p0 = FreeCAD.Vector(0,0,0)
+p1 = FreeCAD.Vector(0,0,-10)
+p2 = FreeCAD.Vector(0,7,-10)
+p3 = FreeCAD.Vector(0,7,-210)
+p4 = FreeCAD.Vector(0,0,-210)
+p5 = FreeCAD.Vector(0,0,-220)
+e0 = Part.makeLine(p0,p1)
+e1 = Part.makeLine(p1,p2)
+e2 = Part.makeLine(p2,p3)
+e3 = Part.makeLine(p3,p4)
+e4 = Part.makeLine(p4,p5)
+eList = [p0,p1,p2,p3,p4,p5]
+wire=Part.Wire([e0,e1,e2,e3,e4])
+toSweep = rectangle(35,3)
+bracket = wire.makePipeShell(toSweep.Wires,True,False,1)
 
 
-
-
+solid2STEP(bracket, "output/bracket.step")
 solid2STEP(topFlange, "output/topFlange.step")
 solid2STEP(body, "output/body.step")
 solid2STEP(vPortCap, "output/vPortCap.step")
