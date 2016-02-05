@@ -89,11 +89,18 @@ floatingPlate = translate(floatingPlate,0,0,plateHeight+lipAdjustHeight+botFlang
 bottomFlange = union(cylinder(botFlangeOuterD/2,botFlangeThickness),translate(cone(stepStartD/2,stepEndD/2,botFlangeStep),0,0,botFlangeThickness))
 bottomFlange = translate(bottomFlange,0,0,-botFlangeThickness+lipAdjustHeight)
 
+# this stuff helps visualize the evaporation
 evapPlane = translate(rectangle(evapDim,evapDim),-evapDim/2,-evapDim/2,plateHeight+lipAdjustHeight+botFlangeStep+plateThickness)
+pointSourceZ = 80 #random guess
+sourcePoint = Part.Vertex(0,0,pointSourceZ)
+loftBits = evapPlane.Wires
+loftBits.append(sourcePoint)
+ballisticTrajectory = Part.makeLoft(loftBits,True).Solids[0]
 
-motorXYOffset = 38.0330
+
+motorXYOffset = 38.0330 # taken from 2d drawing
 motor = STEP2Solid("665921.STP")
-motor = translate(motor,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
+motorA = translate(motor,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
 
 carouselD = 192.4264
 carouselT = 3
@@ -104,13 +111,17 @@ carousel = extrude(carousel,0,0,carouselT)
 carousel = translate(carousel,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+carouselZOffset)
 
 
+
+
+
 solid2STEP(topFlange, "output/topFlange.step")
 solid2STEP(body, "output/body.step")
 solid2STEP(vPortCap, "output/vPortCap.step")
 solid2STEP(floatingPlate, "output/floatingPlate.step")
 solid2STEP(bottomFlange, "output/bottomFlange.step")
-solid2STEP(motor, "output/motor.step")
+solid2STEP(motorA, "output/motorA.step")
 solid2STEP(evapPlane, "output/evapPlane.step")
 solid2STEP(carousel, "output/carousel.step")
+solid2STEP(ballisticTrajectory, "output/ballisticTrajectory.step")
 
 
