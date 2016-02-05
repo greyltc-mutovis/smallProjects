@@ -107,6 +107,9 @@ ballisticTrajectory = Part.makeLoft(loftBits,True).Solids[0]
 motorXYOffset = 38.0330 # taken from 2d drawing
 motor = STEP2Solid("665921.STP")
 motorA = translate(motor,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
+motorB = mirror(motorA,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+6.5,0,0,1)
+motorMountD = 3.3 # TODO: double check this
+motorMountSpacing = 21.7 # TODO: double check this
 
 carouselD = 192.4264
 carouselT = 3
@@ -116,6 +119,8 @@ carousel = circle(carouselD/2)
 carousel = extrude(carousel,0,0,carouselT)
 carousel = translate(carousel,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+carouselZOffset)
 
+bracketWidth=33 # the same as the motor diameter
+bracketThickness=plateThickness
 p0 = FreeCAD.Vector(0,0,0)
 p1 = FreeCAD.Vector(0,0,-10)
 p2 = FreeCAD.Vector(0,7,-10)
@@ -129,9 +134,12 @@ e3 = Part.makeLine(p3,p4)
 e4 = Part.makeLine(p4,p5)
 eList = [p0,p1,p2,p3,p4,p5]
 wire=Part.Wire([e0,e1,e2,e3,e4])
-toSweep = rectangle(35,3)
+toSweep = rectangle(bracketWidth,bracketThickness)
 bracket = wire.makePipeShell(toSweep.Wires,True,False,1)
-
+bracket = translate(bracket,-bracketWidth/2,0,220/2)
+bracket = rotate(bracket,0,-45,0)
+bracket = rotate(bracket,90,0,0)
+bracket = translate(bracket,-motorXYOffset,motorXYOffset,plateHeight+lipAdjustHeight+botFlangeStep+plateThickness)
 
 solid2STEP(bracket, "output/bracket.step")
 solid2STEP(topFlange, "output/topFlange.step")
@@ -140,6 +148,7 @@ solid2STEP(vPortCap, "output/vPortCap.step")
 solid2STEP(floatingPlate, "output/floatingPlate.step")
 solid2STEP(bottomFlange, "output/bottomFlange.step")
 solid2STEP(motorA, "output/motorA.step")
+solid2STEP(motorB, "output/motorB.step")
 solid2STEP(evapPlane, "output/evapPlane.step")
 solid2STEP(carousel, "output/carousel.step")
 solid2STEP(ballisticTrajectory, "output/ballisticTrajectory.step")
