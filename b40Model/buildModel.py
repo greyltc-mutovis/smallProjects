@@ -103,8 +103,8 @@ loftBits = evapPlane.Wires
 loftBits.append(sourcePoint)
 ballisticTrajectory = Part.makeLoft(loftBits,True).Solids[0]
 
-
-motorXOffset = 54.2024 # taken from 2d drawing
+# stepper motor
+motorXOffset = 54.2024 
 motorYOffset = 12.3865
 motor = STEP2Solid("665921.STP")
 motorA = translate(motor,motorXOffset,motorYOffset,plateHeight+lipAdjustHeight+botFlangeStep)
@@ -112,22 +112,70 @@ motor = mirror(motorA,motorXOffset,motorYOffset,plateHeight+lipAdjustHeight+botF
 motorMountD = 3.3 # TODO: double check this
 motorMountSpacing = 21.7 # TODO: double check this
 
+#mask carousel
 carouselD = 188.8007
 carouselT = 3
 carouselZOffset = 5
 carousel = circle(carouselD/2)
-# TODO: cut square holes
-maskSquaresA=26.2024
-maskSquaresB=15.6135
-position0=translate(rectangle(evapDim,evapDim),maskSquaresA,-maskSquaresB,0)
-position1=translate(rectangle(evapDim,evapDim),maskSquaresB-evapDim,maskSquaresA,0)
-position2=translate(rectangle(evapDim,evapDim),-maskSquaresA-evapDim,maskSquaresB-evapDim,0)
-position3=translate(rectangle(evapDim,evapDim),-maskSquaresB,-maskSquaresA-evapDim,0)
-carousel = difference(carousel,position0)
-carousel = difference(carousel,position1)
-carousel = difference(carousel,position2)
-carousel = difference(carousel,position3)
 carousel = extrude(carousel,0,0,carouselT)
+
+# mask windows
+# window offset from center of wheel
+maskWinDx = 26.2024
+maskWinDy = -15.6135
+maskCutout = rectangle(evapDim,evapDim)
+maskCutout = extrude(maskCutout,0,0,carouselT)
+# pocket for mask to sit in
+maskPocketDepth = 0.6
+maskPocketOffset = 2
+maskPocketDim = evapDim + maskPocketOffset*2;
+maskPocket = rectangle(maskPocketDim,maskPocketDim)
+maskPocket = translate(maskPocket,-maskPocketOffset,-maskPocketOffset,carouselT)
+maskPocket = extrude(maskPocket,0,0,-maskPocketDepth)
+maskCutout = union(maskCutout,maskPocket)
+
+# chamfer the mask edges
+chamferBottomFace = rectangle(maskPocketDim,maskPocketDim)
+chamferBottomFace = translate(chamferBottomFace,-maskPocketOffset,-maskPocketOffset,0)
+chamferTopFace = rectangle(evapDim,evapDim)
+chamferTopFace = translate(chamferTopFace,0,0,2)
+loftBits = chamferBottomFace.Wires
+loftBits.append(chamferTopFace.Wires[0])
+chamferSolid = Part.makeLoft(loftBits,True).Solids[0]
+maskCutout = union(maskCutout,chamferSolid)
+
+maskCutout = translate(maskCutout,maskWinDx,maskWinDy,0)# move the window into position
+maskCutouts = circArray(maskCutout,4,0,0,0,0,0,1) # duplicate it
+
+# subtract the windows from the wheel
+carousel = difference(carousel,maskCutouts[0])
+carousel = difference(carousel,maskCutouts[1])
+carousel = difference(carousel,maskCutouts[2])
+carousel = difference(carousel,maskCutouts[3])
+
+# cutout motor shaft hole
+motorShaftD=4
+shaftCutoutD=motorShaftD+0.1
+shaftCutout=cylinder(shaftCutoutD/2,carouselT)
+carousel = difference(carousel,shaftCutout)
+
+# universal hub mounting holes
+# designed for this https://www.pololu.com/product/1997
+m3ClearanceD=3.2
+fourHolesOffset=6.35
+hubMount =cylinder(m3ClearanceD/2,carouselT)
+hubMount = translate(hubMount,fourHolesOffset,0,0)
+hubMounts = circArray(hubMount,4,0,0,0,0,0,1)
+# subtract the mounting holes from the wheel
+carousel = difference(carousel,hubMounts[0])
+carousel = difference(carousel,hubMounts[1])
+carousel = difference(carousel,hubMounts[2])
+carousel = difference(carousel,hubMounts[3])
+
+carouselSlice = section(carousel)
+save2DXF(carousel, "output/carouselSlice.dxf")
+
+# move the mask wheel into position
 carousel = translate(carousel,motorXOffset,motorYOffset,plateHeight+lipAdjustHeight+botFlangeStep+carouselZOffset)
 
 bracketWidth=33 # the same as the motor diameter
@@ -148,7 +196,7 @@ wire=Part.Wire([e0,e1,e2,e3,e4])
 toSweep = rectangle(bracketWidth,bracketThickness)
 bracket = wire.makePipeShell(toSweep.Wires,True,False,1)
 bracket = translate(bracket,-bracketWidth/2,0,220/2)
-bracket = rotate(bracket,0,23.5,0)
+bracket = rotate(bracket,0,13,0)
 bracket = rotate(bracket,90,0,0)
 bracket = translate(bracket,motorXOffset,motorYOffset,plateHeight+lipAdjustHeight+botFlangeStep+plateThickness)
 
