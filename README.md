@@ -1,2 +1,2 @@
-# randomProjects
+# smallProjects
 
