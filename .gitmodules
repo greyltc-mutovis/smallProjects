@@ -1,0 +1,3 @@
+[submodule "b40Model/ezFreeCAD"]
+	path = b40Model/ezFreeCAD
+	url = https://github.com/AFMD/ezFreeCAD.git
