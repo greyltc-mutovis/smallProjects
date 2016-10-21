@@ -6,7 +6,7 @@
 // numbers in mm
 
 //variables for body
-aboveShelf=24; //height above shelf
+aboveShelf=8.35; //height above shelf
 belowShelf=24; //height below shelf
 wallThickness=3; //wall thickness above PCB shelf
 boardBuffer=0.3; //tolerance around board
