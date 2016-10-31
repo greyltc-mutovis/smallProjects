@@ -10,7 +10,7 @@ keyWidth = 5; // for orientation key between cap and body
 keyHeight = 3; // for orientation key between cap and body
 
 //variables for body
-aboveShelf=9; //height above shelf
+aboveShelf=7.5; //height above shelf
 belowShelf=34; //height below shelf
 wallThickness=3; //wall thickness above PCB shelf
 boardBuffer=0.3; //tolerance around board
