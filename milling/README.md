@@ -34,3 +34,12 @@ avrdude -p m328p -P /dev/ttyACM0 -c arduino -D -Uflash:w:grbl_v0_9j_atmega328p_1
 ```
 Make sure you do these things to reset to the proper grbl default settings:
 http://docs.carbide3d.com/article/38-shapeoko-3-default-grbl-settings
+
+Then make sure homing is enabled because we have the switches. Here's the grbl command to run for that:
+```
+$22=1
+```
+check all settings with grbl command:
+```
+$$
+```
