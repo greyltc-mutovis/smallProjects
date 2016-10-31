@@ -16,7 +16,7 @@ One weird trick to getting through the bootloader with avrdude on the Carbidemot
 1. hold little switch below capacitor, not letting go. (just press on the giant through hole cap, you'll feel the click)
 1. press and quickly release reset button on PCB
 1. do avrdude command
-1. release capacitor button
+1. release capacitor button (only once avrdude is good and done with its thing)
 1. profit
 
 Use avrdude to dump S3 firmware to `dumpedFirmware.hex` (in Intel hex format):
