@@ -43,3 +43,10 @@ check all settings with grbl command:
 ```
 $$
 ```
+
+Changes needed under settings in carbide connect:
+```
+1005 Shapeoko Has Homing: true
+1006 Shapeoko Table X: 850
+1007 Shapeoko Table Y: 430
+```
