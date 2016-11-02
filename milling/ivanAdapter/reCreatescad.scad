@@ -1,5 +1,5 @@
-$fn=49;
-union(){
+//$fn=49;
+difference(){
     linear_extrude(4.5) import("adapter-layer1.dxf");
-    linear_extrude(0.5) import("adapter-layer2.dxf");
+    translate([0,0,0.5])linear_extrude(4) import("adapter-layer2.dxf");
 }
