@@ -50,3 +50,19 @@ Changes needed under settings in carbide connect:
 1006 Shapeoko Table X: 850
 1007 Shapeoko Table Y: 430
 ```
+
+#### Fully open source workflow (work in progress)
+
+1. Generate STEP file in whatever
+1. Open file in FreeCAD, part workbench
+1. Create as many Z sections as need to define everything (with section tool in tool bar)
+1. Switch to Draft workbench
+1. Select everything and choose "Downgrade" toolbar item (blue arrow pointing down). This is the same as AUTOCAD's explode. Everything becomes edges.
+1. Select edges and choose File --> Export... --> Auto Desk DXF
+1. Open DXF file in cammill
+1. Set up toolpaths...
+1. Save toolpaths as .ngc file
+1. Open universal gcode sender
+1. Load .ngc file
+1. Send the file to shapoko
+

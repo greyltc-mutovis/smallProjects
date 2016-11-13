@@ -1,0 +1,310 @@
+ ( CAMmill GRBL Postprocessor )
+ ( Ver: 20150830 - by onekk )
+ ( GRBL Support only G61 mode )
+ ( Version < 0.9i build 20150529 )
+ ( must delete the G61 from this file )
+ ( otherwise it raise an error )
+G21 (Metric/mm)
+G40 (No Offsets)
+G90 (Absolute-Mode)
+F100
+ (--------------------------------------------------)
+ (Object: #0)
+ (Layer: 0)
+ (Overcut: 0)
+ (Depth: -2.000000)
+ (Offset: Outside)
+ (Tool-Num: 1)
+ (Tool-Diameter: 3.17)
+ (Tool-Speed: 10000)
+ (--------------------------------------------------)
+G61
+M05
+M6 T1
+M03 S10000
+G00 X1.111 Y1.111 Z4.0
+G00 X-2.009 Y-0.535
+G00 Z1.0
+G01 Z-0.5
+G03 X-1.533 Y-1.19 I2.305 J1.174 F200
+G03 X-1.19 Y-1.533 I3.092 J2.749
+G03 X-0.103 Y-2.229 I2.747 J3.093
+G03 X1.145 Y-2.555 I1.656 J3.791
+G03 X1.55 Y-2.587 I0.404 J2.555
+G01 X21.35
+G03 X21.754 Y-2.555 I0.0 J2.587
+G03 X22.233 Y-2.479 I-0.406 J4.117
+G03 X23.435 Y-2.009 I-0.888 J4.041
+G03 X24.433 Y-1.19 I-2.093 J3.568
+G03 X25.129 Y-0.103 I-3.093 J2.747
+G03 X25.455 Y1.145 I-3.791 J1.656
+G03 X25.487 Y1.55 I-2.555 J0.404
+G01 Y8.45
+G03 X25.455 Y8.854 I-2.587 J-0.0
+G03 X25.379 Y9.333 I-4.117 J-0.406
+G03 X24.909 Y10.535 I-4.041 J-0.888
+G03 X24.09 Y11.533 I-3.568 J-2.093
+G03 X23.003 Y12.229 I-2.747 J-3.093
+G03 X21.754 Y12.555 I-1.656 J-3.791
+G03 X21.35 Y12.587 I-0.404 J-2.555
+G01 X1.55
+G03 X1.145 Y12.555 I-0.0 J-2.587
+G03 X0.666 Y12.479 I0.406 J-4.117
+G03 X-0.535 Y12.009 I0.888 J-4.041
+G03 X-1.533 Y11.19 I2.093 J-3.568
+G03 X-2.229 Y10.103 I3.093 J-2.747
+G03 X-2.555 Y8.854 I3.791 J-1.656
+G03 X-2.587 Y8.45 I2.555 J-0.404
+G01 Y1.55
+G03 X-2.555 Y1.145 I2.587 J0.0
+G03 X-2.479 Y0.666 I4.117 J0.406
+G03 X-2.009 Y-0.535 I4.041 J0.888
+G01 Z-1.0 F100
+G03 X-1.533 Y-1.19 I2.305 J1.174 F200
+G03 X-1.19 Y-1.533 I3.092 J2.749
+G03 X-0.103 Y-2.229 I2.747 J3.093
+G03 X1.145 Y-2.555 I1.656 J3.791
+G03 X1.55 Y-2.587 I0.404 J2.555
+G01 X21.35
+G03 X21.754 Y-2.555 I0.0 J2.587
+G03 X22.233 Y-2.479 I-0.406 J4.117
+G03 X23.435 Y-2.009 I-0.888 J4.041
+G03 X24.433 Y-1.19 I-2.093 J3.568
+G03 X25.129 Y-0.103 I-3.093 J2.747
+G03 X25.455 Y1.145 I-3.791 J1.656
+G03 X25.487 Y1.55 I-2.555 J0.404
+G01 Y8.45
+G03 X25.455 Y8.854 I-2.587 J-0.0
+G03 X25.379 Y9.333 I-4.117 J-0.406
+G03 X24.909 Y10.535 I-4.041 J-0.888
+G03 X24.09 Y11.533 I-3.568 J-2.093
+G03 X23.003 Y12.229 I-2.747 J-3.093
+G03 X21.754 Y12.555 I-1.656 J-3.791
+G03 X21.35 Y12.587 I-0.404 J-2.555
+G01 X1.55
+G03 X1.145 Y12.555 I-0.0 J-2.587
+G03 X0.666 Y12.479 I0.406 J-4.117
+G03 X-0.535 Y12.009 I0.888 J-4.041
+G03 X-1.533 Y11.19 I2.093 J-3.568
+G03 X-2.229 Y10.103 I3.093 J-2.747
+G03 X-2.555 Y8.854 I3.791 J-1.656
+G03 X-2.587 Y8.45 I2.555 J-0.404
+G01 Y1.55
+G03 X-2.555 Y1.145 I2.587 J0.0
+G03 X-2.479 Y0.666 I4.117 J0.406
+G03 X-2.009 Y-0.535 I4.041 J0.888
+G01 Z-1.5 F100
+G03 X-1.533 Y-1.19 I2.305 J1.174 F200
+G03 X-1.19 Y-1.533 I3.092 J2.749
+G03 X-0.103 Y-2.229 I2.747 J3.093
+G03 X1.145 Y-2.555 I1.656 J3.791
+G03 X1.55 Y-2.587 I0.404 J2.555
+G01 X21.35
+G03 X21.754 Y-2.555 I0.0 J2.587
+G03 X22.233 Y-2.479 I-0.406 J4.117
+G03 X23.435 Y-2.009 I-0.888 J4.041
+G03 X24.433 Y-1.19 I-2.093 J3.568
+G03 X25.129 Y-0.103 I-3.093 J2.747
+G03 X25.455 Y1.145 I-3.791 J1.656
+G03 X25.487 Y1.55 I-2.555 J0.404
+G01 Y8.45
+G03 X25.455 Y8.854 I-2.587 J-0.0
+G03 X25.379 Y9.333 I-4.117 J-0.406
+G03 X24.909 Y10.535 I-4.041 J-0.888
+G03 X24.09 Y11.533 I-3.568 J-2.093
+G03 X23.003 Y12.229 I-2.747 J-3.093
+G03 X21.754 Y12.555 I-1.656 J-3.791
+G03 X21.35 Y12.587 I-0.404 J-2.555
+G01 X1.55
+G03 X1.145 Y12.555 I-0.0 J-2.587
+G03 X0.666 Y12.479 I0.406 J-4.117
+G03 X-0.535 Y12.009 I0.888 J-4.041
+G03 X-1.533 Y11.19 I2.093 J-3.568
+G03 X-2.229 Y10.103 I3.093 J-2.747
+G03 X-2.555 Y8.854 I3.791 J-1.656
+G03 X-2.587 Y8.45 I2.555 J-0.404
+G01 Y1.55
+G03 X-2.555 Y1.145 I2.587 J0.0
+G03 X-2.479 Y0.666 I4.117 J0.406
+G03 X-2.009 Y-0.535 I4.041 J0.888
+G01 Z-2.0 F100
+G03 X-1.533 Y-1.19 I2.305 J1.174 F200
+G03 X-1.19 Y-1.533 I3.092 J2.749
+G03 X-0.103 Y-2.229 I2.747 J3.093
+G03 X1.145 Y-2.555 I1.656 J3.791
+G03 X1.55 Y-2.587 I0.404 J2.555
+G01 X21.35
+G03 X21.754 Y-2.555 I0.0 J2.587
+G03 X22.233 Y-2.479 I-0.406 J4.117
+G03 X23.435 Y-2.009 I-0.888 J4.041
+G03 X24.433 Y-1.19 I-2.093 J3.568
+G03 X25.129 Y-0.103 I-3.093 J2.747
+G03 X25.455 Y1.145 I-3.791 J1.656
+G03 X25.487 Y1.55 I-2.555 J0.404
+G01 Y8.45
+G03 X25.455 Y8.854 I-2.587 J-0.0
+G03 X25.379 Y9.333 I-4.117 J-0.406
+G03 X24.909 Y10.535 I-4.041 J-0.888
+G03 X24.09 Y11.533 I-3.568 J-2.093
+G03 X23.003 Y12.229 I-2.747 J-3.093
+G03 X21.754 Y12.555 I-1.656 J-3.791
+G03 X21.35 Y12.587 I-0.404 J-2.555
+G01 X1.55
+G03 X1.145 Y12.555 I-0.0 J-2.587
+G03 X0.666 Y12.479 I0.406 J-4.117
+G03 X-0.535 Y12.009 I0.888 J-4.041
+G03 X-1.533 Y11.19 I2.093 J-3.568
+G03 X-2.229 Y10.103 I3.093 J-2.747
+G03 X-2.555 Y8.854 I3.791 J-1.656
+G03 X-2.587 Y8.45 I2.555 J-0.404
+G01 Y1.55
+G03 X-2.555 Y1.145 I2.587 J0.0
+G03 X-2.479 Y0.666 I4.117 J0.406
+G03 X-2.009 Y-0.535 I4.041 J0.888
+G01 F100
+G03 X-0.826 Y-0.483 I0.526 J1.497 F200
+G03 X-0.483 Y-0.826 I2.383 J2.04
+G03 X0.35 Y-1.338 I2.038 J2.384
+G03 X1.301 Y-1.567 I1.201 J2.898
+G03 X1.55 Y-1.587 I0.248 J1.567
+G01 X21.35
+G03 X21.598 Y-1.567 I0.0 J1.587
+G03 X22.077 Y-1.492 I-0.249 J3.127
+G03 X22.981 Y-1.118 I-0.731 J3.051
+G03 X23.726 Y-0.483 I-1.638 J2.675
+G03 X24.238 Y0.35 I-2.384 J2.038
+G03 X24.467 Y1.301 I-2.898 J1.201
+G03 X24.487 Y1.55 I-1.567 J0.248
+G01 Y8.45
+G03 X24.467 Y8.698 I-1.587 J0.0
+G03 X24.392 Y9.177 I-3.127 J-0.249
+G03 X24.018 Y10.081 I-3.051 J-0.731
+G03 X23.383 Y10.826 I-2.675 J-1.638
+G03 X22.549 Y11.338 I-2.038 J-2.384
+G03 X21.598 Y11.567 I-1.201 J-2.898
+G03 X21.35 Y11.587 I-0.248 J-1.567
+G01 X1.55
+G03 X1.301 Y11.567 I0.0 J-1.587
+G03 X0.822 Y11.492 I0.249 J-3.127
+G03 X-0.081 Y11.118 I0.731 J-3.051
+G03 X-0.826 Y10.483 I1.638 J-2.675
+G03 X-1.338 Y9.649 I2.384 J-2.038
+G03 X-1.567 Y8.698 I2.898 J-1.201
+G03 X-1.587 Y8.45 I1.567 J-0.248
+G01 Y1.55
+G03 X-1.567 Y1.301 I1.587 J-0.0
+G03 X-1.492 Y0.822 I3.127 J0.249
+G03 X-1.118 Y-0.081 I3.051 J0.731
+G00 Z4.0
+M05
+M02
+ (--------------------------------------------------)
+ (CAMmill-Configuration)
+ (cfg:View-Zoom: 0.290000)
+ (cfg:View-Helplines: 1)
+ (cfg:View-ShowGrid: 1)
+ (cfg:View-ShowTool: 1)
+ (cfg:View-Textures: 0)
+ (cfg:View-Rotate-X: -19.000000)
+ (cfg:View-Rotate-Y: 49.200001)
+ (cfg:View-Rotate-Z: 10.800000)
+ (cfg:View-Translate-X: 12)
+ (cfg:View-Translate-Y: 25)
+ (cfg:View-Grid-Size: 10.000000)
+ (cfg:View-Arrow-Scale: 1.000000)
+ (cfg:Tool-Select: -1)
+ (cfg:Tool-Number: 1)
+ (cfg:Tool-Diameter: 3.175000)
+ (cfg:Tool-Speed: 10000)
+ (cfg:Tool-Coolant: 0)
+ (cfg:Tool-Kepp spinning: 1)
+ (cfg:Milling-FeedRate: 200)
+ (cfg:Milling-PlungeRate: 100)
+ (cfg:Milling-Depth: -3.500000)
+ (cfg:Milling-Z-Step: -0.500000)
+ (cfg:Milling-Safe-Move: 4.000000)
+ (cfg:Milling-Overcut: 0)
+ (cfg:Milling-Lasermode: 0)
+ (cfg:Milling-Climb: 0)
+ (cfg:Milling-NoOffsets: 0)
+ (cfg:Milling-Helix: 0)
+ (cfg:Milling-Rough/Fine: 1)
+ (cfg:Milling-Rough-Offset: 1.000000)
+ (cfg:Milling-Velocity-Mode: 1)
+ (cfg:Milling-Blending Tolerance: 0.050000)
+ (cfg:Milling-Offset: 1)
+ (cfg:Pockets-Pocket: 0)
+ (cfg:Pockets-Pocket-Stepover: 50)
+ (cfg:Holding-Tabs-Activate: 0)
+ (cfg:Holding-Tabs-Show Grid: 1)
+ (cfg:Holding-Tabs-Depth: -2.000000)
+ (cfg:Holding-Tabs-Length: 5.000000)
+ (cfg:Holding-Tabs-Triangle-Type: 1)
+ (cfg:Holding-Tabs-On Open: 1)
+ (cfg:Holding-Tabs-On Inside: 0)
+ (cfg:Holding-Tabs-On Outside: 1)
+ (cfg:Holding-Tabs-X-Grid: 55.000000)
+ (cfg:Holding-Tabs-Y-Grid: 55.000000)
+ (cfg:Text-Mill Text: 0)
+ (cfg:Text-Mill-Depth: -0.500000)
+ (cfg:Text-Fixed-W: 1)
+ (cfg:Text-Scale-W: 1.000000)
+ (cfg:Text-Scale-H: 1.000000)
+ (cfg:Text-Font: 0)
+ (cfg:Text-Overwrite: 0)
+ (cfg:Text-Tool-Number: 1)
+ (cfg:Text-Tool-Diameter: 3.175000)
+ (cfg:Text-Tool-Speed: 10000)
+ (cfg:Machine-Fastmove-Speed: 1000)
+ (cfg:Machine-Spindle-Delay: 1.000000)
+ (cfg:Machine-Max Toolspeed: 24000)
+ (cfg:Machine-Fast-Z: 1.000000)
+ (cfg:Machine-Post: 1)
+ (cfg:Machine-Post-Command: )
+ (cfg:Calculation-Tool-Flutes: 2)
+ (cfg:Calculation-Select: 1)
+ (cfg:Calculation-Cutting Speed: 150)
+ (cfg:Calculation-Feed/Tooth@<4mm: 0.040000)
+ (cfg:Calculation-Feed/Tooth@<8mm: 0.050000)
+ (cfg:Calculation-Feed/Tooth@<12mm: 0.100000)
+ (cfg:Calculation-CalcSpeed: 15038)
+ (cfg:Calculation-CalcFeedRate: 1203)
+ (cfg:Calculation-Use calculated rates: 0)
+ (cfg:Rotary-Activate: 0)
+ (cfg:Rotary-Axis: 0)
+ (cfg:Rotary-Diameter: 100.000000)
+ (cfg:Tangencial-Activate: 0)
+ (cfg:Tangencial-Axis: 1)
+ (cfg:Tangencial-MaxAngle: 10.000000)
+ (cfg:Window-X-Position: 212)
+ (cfg:Window-Y-Position: 238)
+ (cfg:Window-Width: 1260)
+ (cfg:Window-Height: 732)
+ (cfg:Window-Maximized: 0)
+ (cfg:Bitmap-Scale: 1.000000)
+ (cfg:Bitmap-R: 10)
+ (cfg:Bitmap-G: 10)
+ (cfg:Bitmap-B: 10)
+ (cfg:Misc-Unit on Load: 2)
+ (cfg:Misc-Unit: 1)
+ (cfg:Misc-Scale: 1.000000)
+ (cfg:Misc-Tolerance: 0.001000)
+ (cfg:Misc-Tool-Table: )
+ (cfg:Misc-Setup-Autosave: 1)
+ (cfg:Misc-Batchmode: 0)
+ (cfg:Misc-LoadPath: /home/grey/git/smallProjects/milling/testStructures)
+ (cfg:Misc-SavePath: )
+ (cfg:Misc-PresetPath: )
+ (cfg:Misc-Delete Double Lines: 1)
+ (cfg:Misc-Zero: 0)
+ (cfg:Misc-Zero-Offset-X: 0.000000)
+ (cfg:Misc-Zero-Offset-Y: 0.000000)
+ (cfg:Misc-Append Config: 1)
+ (cfg:Misc-Texture: metal)
+ (cfg:Misc-NC-Debug: 0)
+ (cfg:Misc-DXF-Debug: 0)
+ (cfg:Misc-DXF-File: /home/grey/git/smallProjects/milling/testStructures/22_9x10_0.dxf)
+ (cfg:Misc-Output-File: -)
+ (cfg:object-0-use: 1)
+ (cfg:object-0-closed: 1)
+ (--------------------------------------------------)
