@@ -64,5 +64,6 @@ Changes needed under settings in carbide connect:
 1. Save toolpaths as .ngc file
 1. Open universal gcode sender
 1. Load .ngc file
+1. Click the "visualize" button to inspect the toolpath
 1. Send the file to shapoko
 
