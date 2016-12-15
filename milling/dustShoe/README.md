@@ -3,7 +3,7 @@
 [7-19]mm : slice 2  
 
 
-in carbide create:  
+carbide create always imports in inches but my drawings are in mm so,  
 first scale by  
 0.3937  
 then by  
