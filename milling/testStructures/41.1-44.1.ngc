@@ -1,0 +1,94 @@
+(Block-name: Header)
+(Block-expand: 1)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G1 z3 f100
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-color: #000000)
+g0 x22.05 y0
+g1 z0 f100
+g3 x22.05 y0 i-22.05 j0 f500
+g0 z3
+(Block-name: 0 [outerRing,cut:-2])
+(Block-expand: 1)
+(Block-enable: 1)
+g0 x25.225 y0
+g1 z0 f100
+g3 x25.225 y0 i-25.225 j0 f200
+g1 z-1 f100
+g3 x25.225 y0 i-25.225 j0 f200
+g1 z-2 f100
+g3 x25.225 y0 i-25.225 j0 f200
+g0 z3
+(Block-name: 0)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-color: #000000)
+g0 x20.55 y0
+g1 z0 f100
+g3 x20.55 y0 i-20.55 j0 f500
+g0 z3
+(Block-name: 0 [innerRing,pocket,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+g0 x1.5 y0
+g1 z0 f100
+g3 x1.5 y0 i-1.5 j0 f200
+g1 x4.04 y0
+g3 x4.04 y0 i-4.04 j0
+g1 x6.58 y0
+g3 x6.58 y0 i-6.58 j0
+g1 x9.12 y0
+g3 x9.12 y0 i-9.12 j0
+g1 x11.66 y0
+g3 x11.66 y0 i-11.66 j0
+g1 x14.2 y0
+g3 x14.2 y0 i-14.2 j0
+g0 z3
+g0 x1.5 y0
+g1 z-1 f100
+g3 x1.5 y0 i-1.5 j0 f200
+g1 x4.04 y0
+g3 x4.04 y0 i-4.04 j0
+g1 x6.58 y0
+g3 x6.58 y0 i-6.58 j0
+g1 x9.12 y0
+g3 x9.12 y0 i-9.12 j0
+g1 x11.66 y0
+g3 x11.66 y0 i-11.66 j0
+g1 x14.2 y0
+g3 x14.2 y0 i-14.2 j0
+g0 z3
+g0 x1.5 y0
+g1 z-2 f100
+g3 x1.5 y0 i-1.5 j0 f200
+g1 x4.04 y0
+g3 x4.04 y0 i-4.04 j0
+g1 x6.58 y0
+g3 x6.58 y0 i-6.58 j0
+g1 x9.12 y0
+g3 x9.12 y0 i-9.12 j0
+g1 x11.66 y0
+g3 x11.66 y0 i-11.66 j0
+g1 x14.2 y0
+g3 x14.2 y0 i-14.2 j0
+g0 z3
+(Block-name: 0 [innerRing,cut:-2])
+(Block-expand: 0)
+(Block-enable: 1)
+g0 x17.375 y0
+g1 z0 f100
+g3 x17.375 y0 i-17.375 j0 f200
+g1 z-1 f100
+g3 x17.375 y0 i-17.375 j0 f200
+g1 z-2 f100
+g3 x17.375 y0 i-17.375 j0 f200
+g0 z3
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+M5
+G0 Z20
