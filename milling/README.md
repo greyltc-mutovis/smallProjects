@@ -59,11 +59,7 @@ Changes needed under settings in carbide connect:
 1. Switch to Draft workbench
 1. Select everything and choose "Downgrade" toolbar item (blue arrow pointing down). This is the same as AUTOCAD's explode. Everything becomes edges.
 1. Select edges and choose File --> Export... --> Auto Desk DXF
-1. Open DXF file in cammill
+1. Open DXF file in bCNC
 1. Set up toolpaths...
-1. Save toolpaths as .ngc file
-1. Open universal gcode sender
-1. Load .ngc file
-1. Click the "visualize" button to inspect the toolpath
-1. Send the file to shapoko
+1. Cut the part
 
