@@ -63,9 +63,19 @@ Changes needed under settings in carbide connect:
   - defines one single mono-height cutting surface.
   - contains only one closed loop.
   - is comprised of only arc and line segments.
-1. Open DXF file in bCNC
-1. Set up toolpaths... to generate gcode
-1. visualize gcode with linuxcnc
+1. Open bCNC
+1. Import cutting plane defining DXF
+1. Setup bit (especially tool diameter)
+1. Setup material (especially feed rate and z step)
+1 Setup stock (especially thickness)
+1. Set up toolpaths which generate gcode
+  1. Rotate things properly
+  1. Set workpiece zero properly
+  1. Re-order the loops to have an appropriate cutting order
+  1. Select individual loops and generate pockets or profiles from each of them
+    - insert tabs as needed into profiles
+    - then generate cuts from the above loops and profiles taking care to set starting and finishing plane heights properly
+1. Visualize gcode with linuxcnc
 1. Send the gcode to cutter with bCNC or universal gcode sender
 
 #### Proprietary (closed source workflow)
