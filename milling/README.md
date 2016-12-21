@@ -60,6 +60,7 @@ Changes needed under settings in carbide connect:
 1. Select everything and choose "Downgrade" toolbar item (blue arrow pointing down). This is the same as AUTOCAD's explode. Everything becomes edges.
 1. Select edges and choose File --> Export... --> Auto Desk DXF
 1. Open DXF file in bCNC
-1. Set up toolpaths...
-1. Cut the part
+1. Set up toolpaths... to generate gcode
+1. visualize gcode with linuxcnc
+1. Cut the part (in bCNC)
 
