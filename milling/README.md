@@ -59,6 +59,7 @@ Changes needed under settings in carbide connect:
 1. Switch to Draft workbench
 1. Select everything and choose "Downgrade" toolbar item (blue arrow pointing down). This is the same as AUTOCAD's explode. Everything becomes edges.
 1. Select edges and choose File --> Export... --> Auto Desk DXF
+1. Edit DXF to contain only closed polyline loops which define cutting planes.
 1. Open DXF file in bCNC
 1. Set up toolpaths... to generate gcode
 1. visualize gcode with linuxcnc
