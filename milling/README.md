@@ -62,5 +62,11 @@ Changes needed under settings in carbide connect:
 1. Open DXF file in bCNC
 1. Set up toolpaths... to generate gcode
 1. visualize gcode with linuxcnc
-1. Cut the part (in bCNC)
+1. Send the gcode to cutter with bCNC or universal gcode sender
 
+#### Proprietary (closed source workflow)
+
+1. Generate STEP file in whatever
+1. Open file in Fusion 360 (free license)
+1. Generate toolpaths & gcode
+1. Send g-code to cutter with carbide motion
