@@ -75,7 +75,7 @@ Changes needed under settings in carbide connect:
   1. Select individual loops and generate pockets or profiles from each of them
     - insert tabs as needed into profiles
     - then generate cuts from the above loops and profiles taking care to set starting and finishing plane heights properly
-1. Visualize gcode with linuxcnc
+1. Visualize gcode with linuxcnc or camotics
 1. Send the gcode to cutter with bCNC or universal gcode sender
 
 #### Proprietary (closed source workflow)
