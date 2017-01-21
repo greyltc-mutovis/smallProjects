@@ -7,7 +7,7 @@ import numpy as np
 from scipy import optimize
 
 # here's the model we'd like to fit to (this returns complex numbers)
-model = lambda Rs,Rp,C,w: Rs + (Rp-1j*w*C*Rp)/(1+(w*C*Rp)**2)
+model = lambda Rs,Rp,C,w: Rs + (Rp-1j*w*C*Rp**2)/(1+(w*C*Rp)**2)
 
 # here's our best guess for the fit parameters (Rs,Rp,C), these are all real
 guess = np.array([20, 1E5, 20E-9])
