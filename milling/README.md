@@ -121,5 +121,10 @@ Changes needed under settings in carbide connect:
  - Set direction to conventional
  - Set maximum stepdown to 1mm
 1. Click OK and the finishing toolpath will be generated
+1. Select all the toolpaths and click simulate in the Actions toolbar.
+ - Check for red parts of the green line at the bottom of the screen, those are detected collisions.
+1. Export the .nc code by clicking post process in the Actions toolbar
+ - Post process for generic Grbl
+
 
 TODO: This method does not have holding tabs!
