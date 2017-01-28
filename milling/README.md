@@ -84,3 +84,42 @@ Changes needed under settings in carbide connect:
 1. Open file in Fusion 360 (free license)
 1. Generate toolpaths & gcode
 1. Send g-code to cutter with carbide motion
+
+#### Toolpath generaion with Fusion360
+
+1. Import step file
+1. Switch to CAM mode
+1. Click Setup icon with folder and box
+1. Define the stock dimensions
+ - Add X mm offset the top of the part here such that the total stock Z matches the actual stock to be cut
+ - Set stock side offset to 0 mm
+1. Make a new roughing toolpath -- Click "3D" button then "pocket clearing"
+1. In tool tab, pick the proper tool diameter and shape
+ - Set all the tool's feedrates to 500 mm/min
+ - Set the tool's plunge feedrate to 100 mm/min
+ - Set the tool's coolant = disabled
+1. In Geometry tab
+ - Set machining boundary = selection and choose the outer most loop or ("wire")
+ - Set tool containment =  Tool inside boundary
+ - Set additional offset to -1x (tool diameter + roughing offset + 0.1mm) (maybe -1x(6.35+0.5+0.1)=-6.95mm)
+1. In Passes tab
+ - Use Morphed Spiral Machining
+ - Maximum Roughing Stepdown = 2mm
+ - Enable smoothing
+1. In Passes tab
+ - Retraction policy to minimum retraction
+ - Ramp Type to Plunge
+1. Click OK and the roughing toolpath will be generated (with 0.5mm offset)
+1. Make a new finishing toolpath -- Right click on the roughing toolpath (Poket1 maybe) --> Create Derived Operation --> 3D milling --> Parallel
+1. In Geometry tab
+ - Set Additional offset to -1x (tool diameter + roughing offset + 0.01mm) (maybe -6.86mm)
+1. Click OK and the finishing toolpath will be generated
+1. Make a new finishing toolpath -- Right click on the path you just created (Poket1 maybe) --> Create Derived Operation --> 3D milling --> Contour
+1. In Geometry tab
+ - Set Additional offset to -1x (tool diameter + roughing offset + 0.01mm) (maybe -6.86mm)
+1. In Passes tab
+ - Set direction to conventional
+ - Set maximum stepdown to 1mm
+1. Click OK and the finishing toolpath will be generated
+
+TODO: This method does not have holding tabs!
