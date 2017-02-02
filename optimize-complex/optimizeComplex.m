@@ -103,8 +103,8 @@ model = @(w,Rs,Rp,C) Rs + Rp*(1-1i*w*C*Rp)./(1+(w*C*Rp).^2);
 
 objfcn = @(v) model(xData,v(1),v(2),v(3)) - yData;
 objfcn = @(v) abs(model(xData,v(1),v(2),v(3)) - yData);
-opts = optimoptions(@lsqnonlin,'Algorithm','levenberg-marquardt','Display','final','StepTolerance',0,'FunctionTolerance',0,'MaxFunctionEvaluations',70000,'ScaleProblem','jacobian');
-%opts = optimoptions(@lsqnonlin,'Algorithm','trust-region-reflective','Display','final','StepTolerance',0,'FunctionTolerance',0,'MaxFunctionEvaluations',70000,'MaxIterations',9000);
+%opts = optimoptions(@lsqnonlin,'Algorithm','levenberg-marquardt','Display','final','StepTolerance',0,'FunctionTolerance',0,'MaxFunctionEvaluations',70000,'ScaleProblem','jacobian');
+opts = optimoptions(@lsqnonlin,'Algorithm','trust-region-reflective','Display','final','StepTolerance',0,'FunctionTolerance',0,'MaxFunctionEvaluations',70000,'MaxIterations',9000);
 
 x0=[20,1e5,20e-9];
 [vestimated,resnorm,residuals,exitflag,output] = lsqnonlin(objfcn,x0,[],[],opts);
