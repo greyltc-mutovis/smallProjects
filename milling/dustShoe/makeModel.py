@@ -9,7 +9,7 @@ import ezFreeCAD as ezfc
 
 tehLines = ezfc.loadDXF("2d.dxf") 
 
-thickness = 20
+thickness = 19
 topHalf = ezfc.difference(ezfc.extrude(tehLines["topHalf"],0,0,thickness),ezfc.extrude(tehLines["mountingHoles"],0,0,thickness))
 
 ezfc.solid2STEP(topHalf, "topHalf.step")
