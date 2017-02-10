@@ -1,3 +1,4 @@
 *.log
 *.pyc
 *.bak
+*.kicad_pcb-bak
