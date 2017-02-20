@@ -249,16 +249,16 @@ print(params)
 
 
 fig, ax1 = plt.subplots()
-ax1.semilogx(xData, model(params['Rs'], params['Rp'], params['C'], xData).real, 'b-')
-ax1.semilogx(xData, yData.real, 'b.')
+ax1.loglog(xData, model(params['Rs'], params['Rp'], params['C'], xData).real, 'b-')
+ax1.loglog(xData, yData.real, 'b.')
 ax1.set_xlabel('Frequency [rad/s]')
 # Make the y-axis label, ticks and tick labels match the line color.
 ax1.set_ylabel('Real Part', color='b')
 ax1.tick_params('y', colors='b')
 
 ax2 = ax1.twinx()
-ax2.semilogx(xData, model(params['Rs'], params['Rp'], params['C'], xData).imag, 'r-')
-ax2.semilogx(xData, yData.imag, 'r.')
+ax2.loglog(xData, model(params['Rs'], params['Rp'], params['C'], xData).imag, 'r-')
+ax2.loglog(xData, yData.imag, 'r.')
 ax2.set_ylabel('Imaginary Part', color='r')
 ax2.tick_params('y', colors='r')
 
