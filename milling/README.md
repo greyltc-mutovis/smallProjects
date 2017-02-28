@@ -31,8 +31,9 @@ Here's how to build the firmware:
 ```
 git clone https://github.com/gnea/grbl.git
 cd grbl
-git checkout f51268e # the latest as of this writing
+git checkout master
 # reconfigure for shapeoko 3
+
 sed -i 's,#define DEFAULTS_GENERIC,#define DEFAULTS_SHAPEOKO_3,g' grbl/config.h
 make
 # your new firmware is now the grbl.hex file
