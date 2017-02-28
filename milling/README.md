@@ -21,8 +21,7 @@ One weird trick to getting through the bootloader with avrdude on the Carbidemot
 1. Get a grbl command terminal somehow (maybe with `screen /dev/ttyACM0 115200`)
 1. Press and hold the z limit switch
  - or alternatively: hold little switch below capacitor, not letting go. (just press on the giant through hole cap, you'll feel the click)
-1. In the grbl command terminal issue a ctrl-x keystroke combo to reset grbl (the grbl prompt should then show up)
-1. Now exit & disconnect from the command terminal
+1. Issue `echo -en '\x18' > /dev/ttyACM0`
 1. Do avrdude command
 1. Release the switch/capacitor button (only once avrdude is good and done with its thing)
 1. Profit
@@ -33,12 +32,12 @@ Change port as needed
 
 Use avrdude to dump S3 firmware to `dumpedFirmware.hex` (in Intel hex format):
 ```bash
-avrdude -n -p m328p -P /dev/ttyACM0 -c arduino -U flash:r:dumpedFirmware.hex:i 
+echo -en '\x18' > /dev/ttyACM0 && sleep 1 && avrdude -n -p m328p -P /dev/ttyACM0 -c arduino -U flash:r:dumpedFirmware.hex:i 
 ```
 
 Use avrdude to flash grbl.hex into s3 controller board :
 ```bash
-avrdude -p m328p -P /dev/ttyACM0 -c arduino -Uflash:w:grbl.hex:i
+echo -en '\x18' > /dev/ttyACM0 && sleep 1 && avrdude -p m328p -D -P /dev/ttyACM0 -c arduino -Uflash:w:grbl.hex:i
 ```
 __compile grbl__
 
