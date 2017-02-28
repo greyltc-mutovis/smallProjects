@@ -13,6 +13,8 @@ indtech
 ### Firmware
 One weird trick to getting through the bootloader with avrdude on the Carbidemotion v2.3 PCB that shipped with our shapoko3:
 
+
+
 1. hold little switch below capacitor, not letting go. (just press on the giant through hole cap, you'll feel the click)
 1. press and quickly release reset button on PCB
 1. do avrdude command
@@ -24,9 +26,18 @@ Use avrdude to dump S3 firmware to `dumpedFirmware.hex` (in Intel hex format):
 avrdude -n -p m328p -P /dev/ttyACM0 -c arduino -U flash:r:dumpedFirmware.hex:i 
 ```
 
-Here is the grbl firmware project https://github.com/grbl
-Pre-built binaries can be found there.
-The latest (as of this writing) is version 0.9j
+Here is the grbl firmware project https://github.com/gnea/grbl
+Here's how to build the firmware:
+```
+git clone https://github.com/gnea/grbl.git
+cd grbl
+git checkout f51268e # the latest as of this writing
+# reconfigure for shapeoko 3
+sed -i 's,#define DEFAULTS_GENERIC,#define DEFAULTS_SHAPEOKO_3,g' grbl/config.h
+make
+# your new firmware is now the grbl.hex file
+```
+The latest (as of this writing) is version grbl_v1.1f.20170131
 
 Use avrdude to flash grbl to 0.9j into s3 controller board:
 ```bash
