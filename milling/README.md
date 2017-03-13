@@ -37,7 +37,7 @@ echo -en '\x18' > /dev/ttyACM0 && sleep 1 && avrdude -n -p m328p -P /dev/ttyACM0
 
 Use avrdude to flash grbl.hex into s3 controller board :
 ```bash
-echo -en '\x18' > /dev/ttyACM0 && sleep 1 && avrdude -p m328p -D -P /dev/ttyACM0 -c arduino -Uflash:w:grbl.hex:i
+echo -en '\x18' > /dev/ttyACM0 && sleep 1 && avrdude -p m328p -P /dev/ttyACM0 -c arduino -Uflash:w:grbl.hex:i
 ```
 __compile grbl__
 
@@ -51,13 +51,18 @@ git checkout master
 #curl https://raw.githubusercontent.com/AFMD/smallProjects/master/milling/config.h > grbl/config.h
 sed -i 's,#define DEFAULTS_GENERIC,#define DEFAULTS_SHAPEOKO_3,g' grbl/config.h
 sed -i '/#define USE_LINE_NUMBERS/s,^// ,,g' grbl/config.h
+#sed -i '/#define VARIABLE_SPINDLE/s,^,// ,g' grbl/config.h
 #sed -i '/#define ENABLE_SAFETY_DOOR_INPUT_PIN/s,^// ,,g' grbl/config.h
 #sed -i '/#define SPINDLE_PWM_MIN_VALUE 5/s,^// ,,g' grbl/config.h
-sed -i 's,// #define SETTINGS_RESTORE_ALL (SETTINGS_RESTORE_DEFAULTS | SETTINGS_RESTORE_PARAMETERS | SETTINGS_RESTORE_STARTUP_LINES | SETTINGS_RESTORE_BUILD_INFO),#define SETTINGS_RESTORE_ALL (SETTINGS_RESTORE_DEFAULTS | /* SETTINGS_RESTORE_PARAMETERS | */ SETTINGS_RESTORE_STARTUP_LINES | SETTINGS_RESTORE_BUILD_INFO),g' grbl/config.h
+#sed -i 's,// #define SETTINGS_RESTORE_ALL (SETTINGS_RESTORE_DEFAULTS | SETTINGS_RESTORE_PARAMETERS | SETTINGS_RESTORE_STARTUP_LINES | SETTINGS_RESTORE_BUILD_INFO),#define SETTINGS_RESTORE_ALL (SETTINGS_RESTORE_DEFAULTS | /* SETTINGS_RESTORE_PARAMETERS | */ SETTINGS_RESTORE_STARTUP_LINES | SETTINGS_RESTORE_BUILD_INFO),g' grbl/config.h
+sed -i '/#define SETTINGS_RESTORE_ALL/s,^// ,,g' grbl/config.h
 sed -i '/#define PARKING_ENABLE/s,^// ,,g' grbl/config.h
 sed -i '/#define ENABLE_PARKING_OVERRIDE_CONTROL/s,^// ,,g' grbl/config.h
 sed -i 's,#define DEFAULT_X_MAX_TRAVEL 425.0,#define DEFAULT_X_MAX_TRAVEL 850.0,g' grbl/defaults.h
 sed -i 's,#define DEFAULT_HOMING_ENABLE 0,#define DEFAULT_HOMING_ENABLE 1,g' grbl/defaults.h
+sed -i 's,#define DEFAULT_HOMING_DIR_MASK 0,#define DEFAULT_HOMING_DIR_MASK ((1<<X_AXIS)|(1<<Y_AXIS)),g' grbl/defaults.h
+sed -i 's,#define DEFAULT_SOFT_LIMIT_ENABLE 0,#define DEFAULT_SOFT_LIMIT_ENABLE 1,g' grbl/defaults.h
+sed -i 's,#define DEFAULT_HARD_LIMIT_ENABLE 0,#define DEFAULT_HARD_LIMIT_ENABLE 1,g' grbl/defaults.h
 make
 # your new firmware is now the grbl.hex (intel hex format)
 ```
