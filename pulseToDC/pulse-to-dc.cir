@@ -1,0 +1,23 @@
+.title KiCad schematic
+CC2 Net-_C2-Pad1_ Net-_C1-Pad2_ 40p
+RR2 Net-_C2-Pad1_ Net-_C1-Pad2_ 1G
+DD1 Net-_C2-Pad1_ Net-_C1-Pad2_ DIODE
+II2 Net-_C1-Pad2_ Net-_C2-Pad1_ dc 0 pulse(0 1.25m 0 0 0 1.5n 50u)
+II1 Net-_C1-Pad2_ Net-_C2-Pad1_ dc 1n
+RR3 Net-_C2-Pad1_ Net-_R3-Pad2_ 0.1
+RR4 Net-_R3-Pad2_ 0 50
+VV1 Net-_R1-Pad2_ 0 dc 10
+CC1 0 Net-_C1-Pad2_ 0.1u
+RR1 Net-_C1-Pad2_ Net-_R1-Pad2_ 1k
+RR6 Vout 0 1MEG
+CC3 0 Vout 1m
+RR5 Vout Net-_R3-Pad2_ 160
+.tran 10u 1
+*.tran 2n 100m
+.model DIODE D
+.control
+run
+write rawspice.raw
+*wrdata Vout.ascii Vout
+.endc
+.end
