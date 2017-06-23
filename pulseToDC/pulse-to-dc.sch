@@ -149,24 +149,11 @@ Lockin AUX In
 Text Notes 8150 2900 2    60   ~ 0
 Our Filter
 Text Notes 7600 1550 0    60   ~ 0
-.tran 10u 1\n*.tran 2n 100m\n.model DIODE D\n.control\nrun\nwrite rawspice.raw\n*wrdata Vout.ascii Vout\n.endc
+.tran 1u 1\n*.tran 2n 100m\n.model DIODE D\n.control\nrun\nwrite rawspice.raw\n*wrdata Vout.ascii Vout\n.endc
 Text Notes 7600 700  0    60   ~ 0
 to be appended onto ngspice netlist:
 Text Notes 7600 2150 0    60   ~ 0
 now the netlist can be simulated in ngspice batch mode with\nngspice -b ${NETLIST_FILE_NAME}.cir\ncreating rawspice.raw which can be inspected with:\nngnutmeg rawspice.raw\nthen plot Vout by issuing\nplot Vout
-$Comp
-L R R4
-U 1 1 594A3F57
-P 7000 4450
-F 0 "R4" H 6930 4404 50  0000 R CNN
-F 1 "50" H 6930 4495 50  0000 R CNN
-F 2 "" V 6930 4450 50  0001 C CNN
-F 3 "" H 7000 4450 50  0001 C CNN
-	1    7000 4450
-	1    0    0    -1  
-$EndComp
-Text Notes 6800 4900 1    60   ~ 0
-Impedance Matcher
 Text Notes 9950 4400 1    60   ~ 0
 Input Impedance
 Text Notes 2400 900  0    60   ~ 0
@@ -210,26 +197,15 @@ $EndComp
 Text Notes 750  4400 3    60   ~ 0
 10V Bias Voltage Source
 $Comp
-L R R6
+L R R5
 U 1 1 594A9D92
 P 9750 3950
-F 0 "R6" H 9680 3904 50  0000 R CNN
+F 0 "R5" H 9680 3904 50  0000 R CNN
 F 1 "1MEG" H 9680 3995 50  0000 R CNN
 F 2 "" V 9680 3950 50  0001 C CNN
 F 3 "" H 9750 3950 50  0001 C CNN
 	1    9750 3950
 	1    0    0    -1  
-$EndComp
-$Comp
-L CAP C3
-U 1 1 594AA48B
-P 8300 4000
-F 0 "C3" H 8478 4046 50  0000 L CNN
-F 1 "1m" H 8478 3955 50  0000 L CNN
-F 2 "" H 8300 4000 50  0001 C CNN
-F 3 "" H 8300 4000 50  0001 C CNN
-	1    8300 4000
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4600 5150 4500 5150
@@ -329,25 +305,32 @@ Wire Wire Line
 Wire Wire Line
 	1250 5850 9750 5850
 Connection ~ 9750 5850
-Wire Wire Line
-	5350 3300 7850 3300
-Wire Wire Line
-	8150 3300 10200 3300
 $Comp
-L R R5
-U 1 1 594AA3CF
+L CAP C3
+U 1 1 594C0352
+P 8300 4000
+F 0 "C3" H 8478 4046 50  0000 L CNN
+F 1 "1u" H 8478 3955 50  0000 L CNN
+F 2 "" H 8300 4000 50  0001 C CNN
+F 3 "" H 8300 4000 50  0001 C CNN
+	1    8300 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 594C03EC
 P 8000 3300
-F 0 "R5" H 8070 3346 50  0000 L CNN
-F 1 "160" H 8070 3255 50  0000 L CNN
+F 0 "R4" H 8070 3346 50  0000 L CNN
+F 1 "1k" H 8070 3255 50  0000 L CNN
 F 2 "" V 7930 3300 50  0001 C CNN
 F 3 "" H 8000 3300 50  0001 C CNN
 	1    8000 3300
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7000 4300 7000 3300
-Connection ~ 7000 3300
+	5350 3300 7850 3300
 Wire Wire Line
-	7000 4600 7000 5850
-Connection ~ 7000 5850
+	8150 3300 10200 3300
+Connection ~ 5500 5850
+Connection ~ 5500 3300
 $EndSCHEMATC
