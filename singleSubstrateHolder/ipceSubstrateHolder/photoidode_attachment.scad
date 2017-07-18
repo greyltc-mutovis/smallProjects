@@ -16,18 +16,21 @@ module diodeSocketWithLegs(){
         translate([0,-diodeLegGap/2,-(diodeHeight+wallThickness)/2 + wallThickness/2]) cylinder(wallThickness, d=diodeLegDiam, center=true);
         }
     }
-union(){
-    difference(){
-        // body of the attachment
-        cube([diodeSocketDiam*3, cubeOuter+spacerThickness, diodeHeight+wallThickness],     center=true);
+module photodiode_attachment(){
+    union(){
+        difference(){
+            // body of the attachment
+            cube([diodeSocketDiam*3, cubeOuter+spacerThickness, diodeHeight+wallThickness],     center=true);
     
-        // photodiode socket 1
-        translate([-diodeSocketDiam / 2 - diodeGap / 2, -(cubeOuter+spacerThickness)/2 + (opticAxisHeight-stageLowerHeight), 0]) diodeSocketWithLegs();
+            // photodiode socket 1
+            translate([-diodeSocketDiam / 2 - diodeGap / 2, -(cubeOuter+spacerThickness)/2 + (opticAxisHeight-stageLowerHeight), 0]) diodeSocketWithLegs();
     
-        // photodidoe socket 2
-        translate([diodeSocketDiam / 2 + diodeGap / 2, -(cubeOuter+spacerThickness)/2 + (opticAxisHeight-stageLowerHeight), 0]) diodeSocketWithLegs();
-    }
+            // photodidoe socket 2
+            translate([diodeSocketDiam / 2 + diodeGap / 2, -(cubeOuter+spacerThickness)/2 + (opticAxisHeight-stageLowerHeight), 0]) diodeSocketWithLegs();
+        }
 
-    // add alignment notch
-        translate([(diodeSocketDiam*3+wallThickness)/2, spacerThickness, 0]) cube([wallThickness,keyWidth, diodeHeight+wallThickness],center=true);
+        // add alignment notch
+            translate([(diodeSocketDiam*3+wallThickness)/2, (spacerThickness)/2, 0]) cube([wallThickness, keyWidth, diodeHeight+wallThickness],center=true);
+    }
 }
+photodiode_attachment();
