@@ -16,7 +16,7 @@ module diodeSocketWithLegs(){
         translate([0,-diodeLegGap/2,-(diodeHeight+wallThickness)/2 + wallThickness/2]) cylinder(wallThickness, d=diodeLegDiam, center=true);
         }
     }
-module photodiode_attachment(){
+module photodiodeAttachment(){
     union(){
         difference(){
             // body of the attachment
@@ -33,4 +33,7 @@ module photodiode_attachment(){
             translate([(diodeSocketDiam*3+wallThickness)/2, (spacerThickness)/2, 0]) cube([wallThickness, keyWidth, diodeHeight+wallThickness],center=true);
     }
 }
-photodiode_attachment();
+photodiodeAttachment();
+
+//create a 2d projection at z=0. Translate or rotate to get projection at different positions/orientations
+//projection(cut=true) translate([0,0,0]) rotate([0,0,0]) photodiodeAttachment();

@@ -60,3 +60,6 @@ module mainBody(){
     }
 }
 mainBody();
+
+//create a 2d projection at z=0. Translate or rotate to get projection at different positions/orientations
+//projection(cut=true) translate([0,0,-30]) rotate([0,0,0]) mainBody();
