@@ -7,15 +7,19 @@ viewBox="0 0 21000 29700"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str1 {stroke:#2B2A29;stroke-width:7.62}
-    .str0 {stroke:black;stroke-width:7.62;stroke-linejoin:bevel}
+    .str2 {stroke:#008DD2;stroke-width:7.62;stroke-linejoin:bevel}
+    .str0 {stroke:#009846;stroke-width:7.62;stroke-linejoin:bevel}
+    .str4 {stroke:#5CA595;stroke-width:7.62}
+    .str3 {stroke:#5CA595;stroke-width:7.62;stroke-linejoin:bevel}
+    .str5 {stroke:#E31E24;stroke-width:7.62;stroke-linejoin:bevel}
+    .str1 {stroke:#EF7F1A;stroke-width:7.62;stroke-linejoin:bevel}
     .fil0 {fill:none}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_240234608">
+  <g id="_450920016">
    <line class="fil0 str0" x1="12329" y1="9190" x2="12329" y2= "4470" />
    <line class="fil0 str0" x1="12329" y1="4470" x2="10614" y2= "4470" />
    <line class="fil0 str0" x1="10614" y1="4470" x2="10614" y2= "4620" />
@@ -33,70 +37,70 @@ viewBox="0 0 21000 29700"
    <line class="fil0 str0" x1="8399" y1="4470" x2="8399" y2= "6185" />
    <line class="fil0 str0" x1="8399" y1="6185" x2="8549" y2= "6185" />
   </g>
-  <g id="_242143728">
-   <line class="fil0 str0" x1="10124" y1="11470" x2="10124" y2= "11630" />
-   <line class="fil0 str0" x1="10124" y1="11630" x2="8559" y2= "11630" />
-   <line class="fil0 str0" x1="8559" y1="11630" x2="8559" y2= "13185" />
-   <line class="fil0 str0" x1="8559" y1="13185" x2="8964" y2= "13185" />
-   <line class="fil0 str0" x1="8964" y1="13185" x2="8964" y2= "12235" />
-   <line class="fil0 str0" x1="8964" y1="12235" x2="8939" y2= "12234" />
-   <line class="fil0 str0" x1="8939" y1="12234" x2="8913" y2= "12229" />
-   <line class="fil0 str0" x1="8913" y1="12229" x2="8889" y2= "12221" />
-   <line class="fil0 str0" x1="8889" y1="12221" x2="8866" y2= "12209" />
-   <line class="fil0 str0" x1="8866" y1="12209" x2="8845" y2= "12195" />
-   <line class="fil0 str0" x1="8845" y1="12195" x2="8825" y2= "12179" />
-   <line class="fil0 str0" x1="8825" y1="12179" x2="8808" y2= "12160" />
-   <line class="fil0 str0" x1="8808" y1="12160" x2="8793" y2= "12139" />
-   <line class="fil0 str0" x1="8793" y1="12139" x2="8781" y2= "12116" />
-   <line class="fil0 str0" x1="8781" y1="12116" x2="8772" y2= "12092" />
-   <line class="fil0 str0" x1="8772" y1="12092" x2="8767" y2= "12067" />
-   <line class="fil0 str0" x1="8767" y1="12067" x2="8764" y2= "12042" />
-   <line class="fil0 str0" x1="8764" y1="12042" x2="8765" y2= "12016" />
-   <line class="fil0 str0" x1="8765" y1="12016" x2="8769" y2= "11991" />
-   <line class="fil0 str0" x1="8769" y1="11991" x2="8776" y2= "11966" />
-   <line class="fil0 str0" x1="8776" y1="11966" x2="8787" y2= "11943" />
-   <line class="fil0 str0" x1="8787" y1="11943" x2="8800" y2= "11921" />
-   <line class="fil0 str0" x1="8800" y1="11921" x2="8816" y2= "11901" />
-   <line class="fil0 str0" x1="8816" y1="11901" x2="8835" y2= "11883" />
-   <line class="fil0 str0" x1="8835" y1="11883" x2="8855" y2= "11868" />
-   <line class="fil0 str0" x1="8855" y1="11868" x2="8877" y2= "11855" />
-   <line class="fil0 str0" x1="8877" y1="11855" x2="8901" y2= "11845" />
-   <line class="fil0 str0" x1="8901" y1="11845" x2="8926" y2= "11839" />
-   <line class="fil0 str0" x1="8926" y1="11839" x2="8951" y2= "11836" />
-   <line class="fil0 str0" x1="8951" y1="11836" x2="8977" y2= "11836" />
-   <line class="fil0 str0" x1="8977" y1="11836" x2="9002" y2= "11839" />
-   <line class="fil0 str0" x1="9002" y1="11839" x2="9027" y2= "11845" />
-   <line class="fil0 str0" x1="9027" y1="11845" x2="9051" y2= "11855" />
-   <line class="fil0 str0" x1="9051" y1="11855" x2="9073" y2= "11868" />
-   <line class="fil0 str0" x1="9073" y1="11868" x2="9094" y2= "11883" />
-   <line class="fil0 str0" x1="9094" y1="11883" x2="9112" y2= "11901" />
-   <line class="fil0 str0" x1="9112" y1="11901" x2="9128" y2= "11921" />
-   <line class="fil0 str0" x1="9128" y1="11921" x2="9141" y2= "11943" />
-   <line class="fil0 str0" x1="9141" y1="11943" x2="9152" y2= "11966" />
-   <line class="fil0 str0" x1="9152" y1="11966" x2="9159" y2= "11991" />
-   <line class="fil0 str0" x1="9159" y1="11991" x2="9163" y2= "12016" />
-   <line class="fil0 str0" x1="9163" y1="12016" x2="9164" y2= "12035" />
-   <line class="fil0 str0" x1="9164" y1="12035" x2="11864" y2= "12035" />
-   <line class="fil0 str0" x1="11864" y1="12035" x2="11864" y2= "13185" />
-   <line class="fil0 str0" x1="11864" y1="13185" x2="12169" y2= "13185" />
-   <line class="fil0 str0" x1="12169" y1="13185" x2="12169" y2= "11630" />
-   <line class="fil0 str0" x1="12169" y1="11630" x2="10604" y2= "11630" />
-   <line class="fil0 str0" x1="10604" y1="11630" x2="10604" y2= "11470" />
-   <line class="fil0 str0" x1="10604" y1="11470" x2="10124" y2= "11470" />
-   <line class="fil0 str0" x1="8559" y1="13685" x2="8559" y2= "15240" />
-   <line class="fil0 str0" x1="8559" y1="15240" x2="10114" y2= "15240" />
-   <line class="fil0 str0" x1="10114" y1="15240" x2="10114" y2= "14935" />
-   <line class="fil0 str0" x1="10114" y1="14935" x2="8964" y2= "14935" />
-   <line class="fil0 str0" x1="8964" y1="14935" x2="8964" y2= "13685" />
-   <line class="fil0 str0" x1="8964" y1="13685" x2="8559" y2= "13685" />
-   <line class="fil0 str0" x1="11864" y1="13685" x2="11864" y2= "14935" />
-   <line class="fil0 str0" x1="11864" y1="14935" x2="10614" y2= "14935" />
-   <line class="fil0 str0" x1="10614" y1="14935" x2="10614" y2= "15240" />
-   <line class="fil0 str0" x1="10614" y1="15240" x2="12169" y2= "15240" />
-   <line class="fil0 str0" x1="12169" y1="15240" x2="12169" y2= "13685" />
-   <line class="fil0 str0" x1="12169" y1="13685" x2="11864" y2= "13685" />
+  <g id="_450933024">
+   <line class="fil0 str1" x1="10124" y1="11470" x2="10124" y2= "11630" />
+   <line class="fil0 str1" x1="10124" y1="11630" x2="8559" y2= "11630" />
+   <line class="fil0 str1" x1="8559" y1="11630" x2="8559" y2= "13185" />
+   <line class="fil0 str1" x1="8559" y1="13185" x2="8964" y2= "13185" />
+   <line class="fil0 str1" x1="8964" y1="13185" x2="8964" y2= "12235" />
+   <line class="fil0 str1" x1="8964" y1="12235" x2="8939" y2= "12234" />
+   <line class="fil0 str1" x1="8939" y1="12234" x2="8913" y2= "12229" />
+   <line class="fil0 str1" x1="8913" y1="12229" x2="8889" y2= "12221" />
+   <line class="fil0 str1" x1="8889" y1="12221" x2="8866" y2= "12209" />
+   <line class="fil0 str1" x1="8866" y1="12209" x2="8845" y2= "12195" />
+   <line class="fil0 str1" x1="8845" y1="12195" x2="8825" y2= "12179" />
+   <line class="fil0 str1" x1="8825" y1="12179" x2="8808" y2= "12160" />
+   <line class="fil0 str1" x1="8808" y1="12160" x2="8793" y2= "12139" />
+   <line class="fil0 str1" x1="8793" y1="12139" x2="8781" y2= "12116" />
+   <line class="fil0 str1" x1="8781" y1="12116" x2="8772" y2= "12092" />
+   <line class="fil0 str1" x1="8772" y1="12092" x2="8767" y2= "12067" />
+   <line class="fil0 str1" x1="8767" y1="12067" x2="8764" y2= "12042" />
+   <line class="fil0 str1" x1="8764" y1="12042" x2="8765" y2= "12016" />
+   <line class="fil0 str1" x1="8765" y1="12016" x2="8769" y2= "11991" />
+   <line class="fil0 str1" x1="8769" y1="11991" x2="8776" y2= "11966" />
+   <line class="fil0 str1" x1="8776" y1="11966" x2="8787" y2= "11943" />
+   <line class="fil0 str1" x1="8787" y1="11943" x2="8800" y2= "11921" />
+   <line class="fil0 str1" x1="8800" y1="11921" x2="8816" y2= "11901" />
+   <line class="fil0 str1" x1="8816" y1="11901" x2="8835" y2= "11883" />
+   <line class="fil0 str1" x1="8835" y1="11883" x2="8855" y2= "11868" />
+   <line class="fil0 str1" x1="8855" y1="11868" x2="8877" y2= "11855" />
+   <line class="fil0 str1" x1="8877" y1="11855" x2="8901" y2= "11845" />
+   <line class="fil0 str1" x1="8901" y1="11845" x2="8926" y2= "11839" />
+   <line class="fil0 str1" x1="8926" y1="11839" x2="8951" y2= "11836" />
+   <line class="fil0 str1" x1="8951" y1="11836" x2="8977" y2= "11836" />
+   <line class="fil0 str1" x1="8977" y1="11836" x2="9002" y2= "11839" />
+   <line class="fil0 str1" x1="9002" y1="11839" x2="9027" y2= "11845" />
+   <line class="fil0 str1" x1="9027" y1="11845" x2="9051" y2= "11855" />
+   <line class="fil0 str1" x1="9051" y1="11855" x2="9073" y2= "11868" />
+   <line class="fil0 str1" x1="9073" y1="11868" x2="9094" y2= "11883" />
+   <line class="fil0 str1" x1="9094" y1="11883" x2="9112" y2= "11901" />
+   <line class="fil0 str1" x1="9112" y1="11901" x2="9128" y2= "11921" />
+   <line class="fil0 str1" x1="9128" y1="11921" x2="9141" y2= "11943" />
+   <line class="fil0 str1" x1="9141" y1="11943" x2="9152" y2= "11966" />
+   <line class="fil0 str1" x1="9152" y1="11966" x2="9159" y2= "11991" />
+   <line class="fil0 str1" x1="9159" y1="11991" x2="9163" y2= "12016" />
+   <line class="fil0 str1" x1="9163" y1="12016" x2="9164" y2= "12035" />
+   <line class="fil0 str1" x1="9164" y1="12035" x2="11864" y2= "12035" />
+   <line class="fil0 str1" x1="11864" y1="12035" x2="11864" y2= "13185" />
+   <line class="fil0 str1" x1="11864" y1="13185" x2="12169" y2= "13185" />
+   <line class="fil0 str1" x1="12169" y1="13185" x2="12169" y2= "11630" />
+   <line class="fil0 str1" x1="12169" y1="11630" x2="10604" y2= "11630" />
+   <line class="fil0 str1" x1="10604" y1="11630" x2="10604" y2= "11470" />
+   <line class="fil0 str1" x1="10604" y1="11470" x2="10124" y2= "11470" />
+   <line class="fil0 str1" x1="8559" y1="13685" x2="8559" y2= "15240" />
+   <line class="fil0 str1" x1="8559" y1="15240" x2="10114" y2= "15240" />
+   <line class="fil0 str1" x1="10114" y1="15240" x2="10114" y2= "14935" />
+   <line class="fil0 str1" x1="10114" y1="14935" x2="8964" y2= "14935" />
+   <line class="fil0 str1" x1="8964" y1="14935" x2="8964" y2= "13685" />
+   <line class="fil0 str1" x1="8964" y1="13685" x2="8559" y2= "13685" />
+   <line class="fil0 str1" x1="11864" y1="13685" x2="11864" y2= "14935" />
+   <line class="fil0 str1" x1="11864" y1="14935" x2="10614" y2= "14935" />
+   <line class="fil0 str1" x1="10614" y1="14935" x2="10614" y2= "15240" />
+   <line class="fil0 str1" x1="10614" y1="15240" x2="12169" y2= "15240" />
+   <line class="fil0 str1" x1="12169" y1="15240" x2="12169" y2= "13685" />
+   <line class="fil0 str1" x1="12169" y1="13685" x2="11864" y2= "13685" />
   </g>
-  <g id="_242138088">
+  <g id="_450928848">
    <line class="fil0 str0" x1="12329" y1="16190" x2="12329" y2= "11470" />
    <line class="fil0 str0" x1="12329" y1="11470" x2="10614" y2= "11470" />
    <line class="fil0 str0" x1="10614" y1="11470" x2="10614" y2= "11620" />
@@ -114,278 +118,287 @@ viewBox="0 0 21000 29700"
    <line class="fil0 str0" x1="8399" y1="11470" x2="8399" y2= "13185" />
    <line class="fil0 str0" x1="8399" y1="13185" x2="8549" y2= "13185" />
   </g>
-  <g id="_446868256">
-   <line class="fil0 str0" x1="5099" y1="16190" x2="8399" y2= "16190" />
-   <line class="fil0 str0" x1="8399" y1="16190" x2="8399" y2= "13675" />
-   <line class="fil0 str0" x1="8399" y1="13675" x2="8549" y2= "13675" />
-   <line class="fil0 str0" x1="8549" y1="13675" x2="8549" y2= "13195" />
-   <line class="fil0 str0" x1="8549" y1="13195" x2="8399" y2= "13195" />
-   <line class="fil0 str0" x1="8399" y1="13195" x2="8399" y2= "11470" />
-   <line class="fil0 str0" x1="8399" y1="11470" x2="5099" y2= "11470" />
-   <line class="fil0 str0" x1="5099" y1="11470" x2="5099" y2= "16190" />
-   <line class="fil0 str0" x1="5400" y1="12935" x2="5400" y2= "12865" />
-   <line class="fil0 str0" x1="5400" y1="12865" x2="5409" y2= "12795" />
-   <line class="fil0 str0" x1="5409" y1="12795" x2="5427" y2= "12727" />
-   <line class="fil0 str0" x1="5427" y1="12727" x2="5454" y2= "12662" />
-   <line class="fil0 str0" x1="5454" y1="12662" x2="5488" y2= "12600" />
-   <line class="fil0 str0" x1="5488" y1="12600" x2="5530" y2= "12544" />
-   <line class="fil0 str0" x1="5530" y1="12544" x2="5579" y2= "12493" />
-   <line class="fil0 str0" x1="5579" y1="12493" x2="5635" y2= "12449" />
-   <line class="fil0 str0" x1="5635" y1="12449" x2="5695" y2= "12413" />
-   <line class="fil0 str0" x1="5695" y1="12413" x2="5759" y2= "12384" />
-   <line class="fil0 str0" x1="5759" y1="12384" x2="5827" y2= "12364" />
-   <line class="fil0 str0" x1="5827" y1="12364" x2="5896" y2= "12353" />
-   <line class="fil0 str0" x1="5896" y1="12353" x2="5967" y2= "12350" />
-   <line class="fil0 str0" x1="5967" y1="12350" x2="6037" y2= "12357" />
-   <line class="fil0 str0" x1="6037" y1="12357" x2="6106" y2= "12373" />
-   <line class="fil0 str0" x1="6106" y1="12373" x2="6172" y2= "12397" />
-   <line class="fil0 str0" x1="6172" y1="12397" x2="6234" y2= "12430" />
-   <line class="fil0 str0" x1="6234" y1="12430" x2="6292" y2= "12470" />
-   <line class="fil0 str0" x1="6292" y1="12470" x2="6344" y2= "12518" />
-   <line class="fil0 str0" x1="6344" y1="12518" x2="6390" y2= "12571" />
-   <line class="fil0 str0" x1="6390" y1="12571" x2="6428" y2= "12630" />
-   <line class="fil0 str0" x1="6428" y1="12630" x2="6459" y2= "12694" />
-   <line class="fil0 str0" x1="6459" y1="12694" x2="6481" y2= "12761" />
-   <line class="fil0 str0" x1="6481" y1="12761" x2="6495" y2= "12830" />
-   <line class="fil0 str0" x1="6495" y1="12830" x2="6499" y2= "12900" />
-   <line class="fil0 str0" x1="6499" y1="12900" x2="6495" y2= "12970" />
-   <line class="fil0 str0" x1="6495" y1="12970" x2="6481" y2= "13040" />
-   <line class="fil0 str0" x1="6481" y1="13040" x2="6459" y2= "13107" />
-   <line class="fil0 str0" x1="6459" y1="13107" x2="6428" y2= "13170" />
-   <line class="fil0 str0" x1="6428" y1="13170" x2="6390" y2= "13229" />
-   <line class="fil0 str0" x1="6390" y1="13229" x2="6344" y2= "13283" />
-   <line class="fil0 str0" x1="6344" y1="13283" x2="6292" y2= "13330" />
-   <line class="fil0 str0" x1="6292" y1="13330" x2="6234" y2= "13370" />
-   <line class="fil0 str0" x1="6234" y1="13370" x2="6172" y2= "13403" />
-   <line class="fil0 str0" x1="6172" y1="13403" x2="6106" y2= "13427" />
-   <line class="fil0 str0" x1="6106" y1="13427" x2="6037" y2= "13443" />
-   <line class="fil0 str0" x1="6037" y1="13443" x2="5967" y2= "13450" />
-   <line class="fil0 str0" x1="5967" y1="13450" x2="5896" y2= "13448" />
-   <line class="fil0 str0" x1="5896" y1="13448" x2="5827" y2= "13436" />
-   <line class="fil0 str0" x1="5827" y1="13436" x2="5759" y2= "13416" />
-   <line class="fil0 str0" x1="5759" y1="13416" x2="5695" y2= "13388" />
-   <line class="fil0 str0" x1="5695" y1="13388" x2="5635" y2= "13351" />
-   <line class="fil0 str0" x1="5635" y1="13351" x2="5579" y2= "13307" />
-   <line class="fil0 str0" x1="5579" y1="13307" x2="5530" y2= "13257" />
-   <line class="fil0 str0" x1="5530" y1="13257" x2="5488" y2= "13200" />
-   <line class="fil0 str0" x1="5488" y1="13200" x2="5454" y2= "13139" />
-   <line class="fil0 str0" x1="5454" y1="13139" x2="5427" y2= "13073" />
-   <line class="fil0 str0" x1="5427" y1="13073" x2="5409" y2= "13005" />
-   <line class="fil0 str0" x1="5409" y1="13005" x2="5400" y2= "12935" />
-   <line class="fil0 str0" x1="7000" y1="12935" x2="7000" y2= "12865" />
-   <line class="fil0 str0" x1="7000" y1="12865" x2="7009" y2= "12795" />
-   <line class="fil0 str0" x1="7009" y1="12795" x2="7027" y2= "12727" />
-   <line class="fil0 str0" x1="7027" y1="12727" x2="7054" y2= "12662" />
-   <line class="fil0 str0" x1="7054" y1="12662" x2="7088" y2= "12600" />
-   <line class="fil0 str0" x1="7088" y1="12600" x2="7130" y2= "12544" />
-   <line class="fil0 str0" x1="7130" y1="12544" x2="7179" y2= "12493" />
-   <line class="fil0 str0" x1="7179" y1="12493" x2="7235" y2= "12449" />
-   <line class="fil0 str0" x1="7235" y1="12449" x2="7295" y2= "12413" />
-   <line class="fil0 str0" x1="7295" y1="12413" x2="7359" y2= "12384" />
-   <line class="fil0 str0" x1="7359" y1="12384" x2="7427" y2= "12364" />
-   <line class="fil0 str0" x1="7427" y1="12364" x2="7496" y2= "12353" />
-   <line class="fil0 str0" x1="7496" y1="12353" x2="7567" y2= "12350" />
-   <line class="fil0 str0" x1="7567" y1="12350" x2="7637" y2= "12357" />
-   <line class="fil0 str0" x1="7637" y1="12357" x2="7706" y2= "12373" />
-   <line class="fil0 str0" x1="7706" y1="12373" x2="7772" y2= "12397" />
-   <line class="fil0 str0" x1="7772" y1="12397" x2="7834" y2= "12430" />
-   <line class="fil0 str0" x1="7834" y1="12430" x2="7892" y2= "12470" />
-   <line class="fil0 str0" x1="7892" y1="12470" x2="7944" y2= "12518" />
-   <line class="fil0 str0" x1="7944" y1="12518" x2="7990" y2= "12571" />
-   <line class="fil0 str0" x1="7990" y1="12571" x2="8028" y2= "12630" />
-   <line class="fil0 str0" x1="8028" y1="12630" x2="8059" y2= "12694" />
-   <line class="fil0 str0" x1="8059" y1="12694" x2="8081" y2= "12761" />
-   <line class="fil0 str0" x1="8081" y1="12761" x2="8095" y2= "12830" />
-   <line class="fil0 str0" x1="8095" y1="12830" x2="8099" y2= "12900" />
-   <line class="fil0 str0" x1="8099" y1="12900" x2="8095" y2= "12970" />
-   <line class="fil0 str0" x1="8095" y1="12970" x2="8081" y2= "13040" />
-   <line class="fil0 str0" x1="8081" y1="13040" x2="8059" y2= "13107" />
-   <line class="fil0 str0" x1="8059" y1="13107" x2="8028" y2= "13170" />
-   <line class="fil0 str0" x1="8028" y1="13170" x2="7990" y2= "13229" />
-   <line class="fil0 str0" x1="7990" y1="13229" x2="7944" y2= "13283" />
-   <line class="fil0 str0" x1="7944" y1="13283" x2="7892" y2= "13330" />
-   <line class="fil0 str0" x1="7892" y1="13330" x2="7834" y2= "13370" />
-   <line class="fil0 str0" x1="7834" y1="13370" x2="7772" y2= "13403" />
-   <line class="fil0 str0" x1="7772" y1="13403" x2="7706" y2= "13427" />
-   <line class="fil0 str0" x1="7706" y1="13427" x2="7637" y2= "13443" />
-   <line class="fil0 str0" x1="7637" y1="13443" x2="7567" y2= "13450" />
-   <line class="fil0 str0" x1="7567" y1="13450" x2="7496" y2= "13448" />
-   <line class="fil0 str0" x1="7496" y1="13448" x2="7427" y2= "13436" />
-   <line class="fil0 str0" x1="7427" y1="13436" x2="7359" y2= "13416" />
-   <line class="fil0 str0" x1="7359" y1="13416" x2="7295" y2= "13388" />
-   <line class="fil0 str0" x1="7295" y1="13388" x2="7235" y2= "13351" />
-   <line class="fil0 str0" x1="7235" y1="13351" x2="7179" y2= "13307" />
-   <line class="fil0 str0" x1="7179" y1="13307" x2="7130" y2= "13257" />
-   <line class="fil0 str0" x1="7130" y1="13257" x2="7088" y2= "13200" />
-   <line class="fil0 str0" x1="7088" y1="13200" x2="7054" y2= "13139" />
-   <line class="fil0 str0" x1="7054" y1="13139" x2="7027" y2= "13073" />
-   <line class="fil0 str0" x1="7027" y1="13073" x2="7009" y2= "13005" />
-   <line class="fil0 str0" x1="7009" y1="13005" x2="7000" y2= "12935" />
+  <g id="_446815632">
+   <line class="fil0 str2" x1="5099" y1="16190" x2="8399" y2= "16190" />
+   <line class="fil0 str2" x1="8399" y1="16190" x2="8399" y2= "13675" />
+   <line class="fil0 str2" x1="8399" y1="13675" x2="8549" y2= "13675" />
+   <line class="fil0 str2" x1="8549" y1="13675" x2="8549" y2= "13195" />
+   <line class="fil0 str2" x1="8549" y1="13195" x2="8399" y2= "13195" />
+   <line class="fil0 str2" x1="8399" y1="13195" x2="8399" y2= "11470" />
+   <line class="fil0 str2" x1="8399" y1="11470" x2="5099" y2= "11470" />
+   <line class="fil0 str2" x1="5099" y1="11470" x2="5099" y2= "16190" />
+   <line class="fil0 str2" x1="5400" y1="12935" x2="5400" y2= "12865" />
+   <line class="fil0 str2" x1="5400" y1="12865" x2="5409" y2= "12795" />
+   <line class="fil0 str2" x1="5409" y1="12795" x2="5427" y2= "12727" />
+   <line class="fil0 str2" x1="5427" y1="12727" x2="5454" y2= "12662" />
+   <line class="fil0 str2" x1="5454" y1="12662" x2="5488" y2= "12600" />
+   <line class="fil0 str2" x1="5488" y1="12600" x2="5530" y2= "12544" />
+   <line class="fil0 str2" x1="5530" y1="12544" x2="5579" y2= "12493" />
+   <line class="fil0 str2" x1="5579" y1="12493" x2="5635" y2= "12449" />
+   <line class="fil0 str2" x1="5635" y1="12449" x2="5695" y2= "12413" />
+   <line class="fil0 str2" x1="5695" y1="12413" x2="5759" y2= "12384" />
+   <line class="fil0 str2" x1="5759" y1="12384" x2="5827" y2= "12364" />
+   <line class="fil0 str2" x1="5827" y1="12364" x2="5896" y2= "12353" />
+   <line class="fil0 str2" x1="5896" y1="12353" x2="5967" y2= "12350" />
+   <line class="fil0 str2" x1="5967" y1="12350" x2="6037" y2= "12357" />
+   <line class="fil0 str2" x1="6037" y1="12357" x2="6106" y2= "12373" />
+   <line class="fil0 str2" x1="6106" y1="12373" x2="6172" y2= "12397" />
+   <line class="fil0 str2" x1="6172" y1="12397" x2="6234" y2= "12430" />
+   <line class="fil0 str2" x1="6234" y1="12430" x2="6292" y2= "12470" />
+   <line class="fil0 str2" x1="6292" y1="12470" x2="6344" y2= "12518" />
+   <line class="fil0 str2" x1="6344" y1="12518" x2="6390" y2= "12571" />
+   <line class="fil0 str2" x1="6390" y1="12571" x2="6428" y2= "12630" />
+   <line class="fil0 str2" x1="6428" y1="12630" x2="6459" y2= "12694" />
+   <line class="fil0 str2" x1="6459" y1="12694" x2="6481" y2= "12761" />
+   <line class="fil0 str2" x1="6481" y1="12761" x2="6495" y2= "12830" />
+   <line class="fil0 str2" x1="6495" y1="12830" x2="6499" y2= "12900" />
+   <line class="fil0 str2" x1="6499" y1="12900" x2="6495" y2= "12970" />
+   <line class="fil0 str2" x1="6495" y1="12970" x2="6481" y2= "13040" />
+   <line class="fil0 str2" x1="6481" y1="13040" x2="6459" y2= "13107" />
+   <line class="fil0 str2" x1="6459" y1="13107" x2="6428" y2= "13170" />
+   <line class="fil0 str2" x1="6428" y1="13170" x2="6390" y2= "13229" />
+   <line class="fil0 str2" x1="6390" y1="13229" x2="6344" y2= "13283" />
+   <line class="fil0 str2" x1="6344" y1="13283" x2="6292" y2= "13330" />
+   <line class="fil0 str2" x1="6292" y1="13330" x2="6234" y2= "13370" />
+   <line class="fil0 str2" x1="6234" y1="13370" x2="6172" y2= "13403" />
+   <line class="fil0 str2" x1="6172" y1="13403" x2="6106" y2= "13427" />
+   <line class="fil0 str2" x1="6106" y1="13427" x2="6037" y2= "13443" />
+   <line class="fil0 str2" x1="6037" y1="13443" x2="5967" y2= "13450" />
+   <line class="fil0 str2" x1="5967" y1="13450" x2="5896" y2= "13448" />
+   <line class="fil0 str2" x1="5896" y1="13448" x2="5827" y2= "13436" />
+   <line class="fil0 str2" x1="5827" y1="13436" x2="5759" y2= "13416" />
+   <line class="fil0 str2" x1="5759" y1="13416" x2="5695" y2= "13388" />
+   <line class="fil0 str2" x1="5695" y1="13388" x2="5635" y2= "13351" />
+   <line class="fil0 str2" x1="5635" y1="13351" x2="5579" y2= "13307" />
+   <line class="fil0 str2" x1="5579" y1="13307" x2="5530" y2= "13257" />
+   <line class="fil0 str2" x1="5530" y1="13257" x2="5488" y2= "13200" />
+   <line class="fil0 str2" x1="5488" y1="13200" x2="5454" y2= "13139" />
+   <line class="fil0 str2" x1="5454" y1="13139" x2="5427" y2= "13073" />
+   <line class="fil0 str2" x1="5427" y1="13073" x2="5409" y2= "13005" />
+   <line class="fil0 str2" x1="5409" y1="13005" x2="5400" y2= "12935" />
+   <line class="fil0 str2" x1="7000" y1="12935" x2="7000" y2= "12865" />
+   <line class="fil0 str2" x1="7000" y1="12865" x2="7009" y2= "12795" />
+   <line class="fil0 str2" x1="7009" y1="12795" x2="7027" y2= "12727" />
+   <line class="fil0 str2" x1="7027" y1="12727" x2="7054" y2= "12662" />
+   <line class="fil0 str2" x1="7054" y1="12662" x2="7088" y2= "12600" />
+   <line class="fil0 str2" x1="7088" y1="12600" x2="7130" y2= "12544" />
+   <line class="fil0 str2" x1="7130" y1="12544" x2="7179" y2= "12493" />
+   <line class="fil0 str2" x1="7179" y1="12493" x2="7235" y2= "12449" />
+   <line class="fil0 str2" x1="7235" y1="12449" x2="7295" y2= "12413" />
+   <line class="fil0 str2" x1="7295" y1="12413" x2="7359" y2= "12384" />
+   <line class="fil0 str2" x1="7359" y1="12384" x2="7427" y2= "12364" />
+   <line class="fil0 str2" x1="7427" y1="12364" x2="7496" y2= "12353" />
+   <line class="fil0 str2" x1="7496" y1="12353" x2="7567" y2= "12350" />
+   <line class="fil0 str2" x1="7567" y1="12350" x2="7637" y2= "12357" />
+   <line class="fil0 str2" x1="7637" y1="12357" x2="7706" y2= "12373" />
+   <line class="fil0 str2" x1="7706" y1="12373" x2="7772" y2= "12397" />
+   <line class="fil0 str2" x1="7772" y1="12397" x2="7834" y2= "12430" />
+   <line class="fil0 str2" x1="7834" y1="12430" x2="7892" y2= "12470" />
+   <line class="fil0 str2" x1="7892" y1="12470" x2="7944" y2= "12518" />
+   <line class="fil0 str2" x1="7944" y1="12518" x2="7990" y2= "12571" />
+   <line class="fil0 str2" x1="7990" y1="12571" x2="8028" y2= "12630" />
+   <line class="fil0 str2" x1="8028" y1="12630" x2="8059" y2= "12694" />
+   <line class="fil0 str2" x1="8059" y1="12694" x2="8081" y2= "12761" />
+   <line class="fil0 str2" x1="8081" y1="12761" x2="8095" y2= "12830" />
+   <line class="fil0 str2" x1="8095" y1="12830" x2="8099" y2= "12900" />
+   <line class="fil0 str2" x1="8099" y1="12900" x2="8095" y2= "12970" />
+   <line class="fil0 str2" x1="8095" y1="12970" x2="8081" y2= "13040" />
+   <line class="fil0 str2" x1="8081" y1="13040" x2="8059" y2= "13107" />
+   <line class="fil0 str2" x1="8059" y1="13107" x2="8028" y2= "13170" />
+   <line class="fil0 str2" x1="8028" y1="13170" x2="7990" y2= "13229" />
+   <line class="fil0 str2" x1="7990" y1="13229" x2="7944" y2= "13283" />
+   <line class="fil0 str2" x1="7944" y1="13283" x2="7892" y2= "13330" />
+   <line class="fil0 str2" x1="7892" y1="13330" x2="7834" y2= "13370" />
+   <line class="fil0 str2" x1="7834" y1="13370" x2="7772" y2= "13403" />
+   <line class="fil0 str2" x1="7772" y1="13403" x2="7706" y2= "13427" />
+   <line class="fil0 str2" x1="7706" y1="13427" x2="7637" y2= "13443" />
+   <line class="fil0 str2" x1="7637" y1="13443" x2="7567" y2= "13450" />
+   <line class="fil0 str2" x1="7567" y1="13450" x2="7496" y2= "13448" />
+   <line class="fil0 str2" x1="7496" y1="13448" x2="7427" y2= "13436" />
+   <line class="fil0 str2" x1="7427" y1="13436" x2="7359" y2= "13416" />
+   <line class="fil0 str2" x1="7359" y1="13416" x2="7295" y2= "13388" />
+   <line class="fil0 str2" x1="7295" y1="13388" x2="7235" y2= "13351" />
+   <line class="fil0 str2" x1="7235" y1="13351" x2="7179" y2= "13307" />
+   <line class="fil0 str2" x1="7179" y1="13307" x2="7130" y2= "13257" />
+   <line class="fil0 str2" x1="7130" y1="13257" x2="7088" y2= "13200" />
+   <line class="fil0 str2" x1="7088" y1="13200" x2="7054" y2= "13139" />
+   <line class="fil0 str2" x1="7054" y1="13139" x2="7027" y2= "13073" />
+   <line class="fil0 str2" x1="7027" y1="13073" x2="7009" y2= "13005" />
+   <line class="fil0 str2" x1="7009" y1="13005" x2="7000" y2= "12935" />
   </g>
-  <g id="_453501240">
-   <line class="fil0 str0" x1="5099" y1="9190" x2="8399" y2= "9190" />
-   <line class="fil0 str0" x1="8399" y1="9190" x2="8399" y2= "6675" />
-   <line class="fil0 str0" x1="8399" y1="6675" x2="8549" y2= "6675" />
-   <line class="fil0 str0" x1="8549" y1="6675" x2="8549" y2= "6195" />
-   <line class="fil0 str0" x1="8549" y1="6195" x2="8399" y2= "6195" />
-   <line class="fil0 str0" x1="8399" y1="6195" x2="8399" y2= "4470" />
-   <line class="fil0 str0" x1="8399" y1="4470" x2="5099" y2= "4470" />
-   <line class="fil0 str0" x1="5099" y1="4470" x2="5099" y2= "9190" />
-   <line class="fil0 str0" x1="5400" y1="5935" x2="5400" y2= "5865" />
-   <line class="fil0 str0" x1="5400" y1="5865" x2="5409" y2= "5795" />
-   <line class="fil0 str0" x1="5409" y1="5795" x2="5427" y2= "5727" />
-   <line class="fil0 str0" x1="5427" y1="5727" x2="5454" y2= "5662" />
-   <line class="fil0 str0" x1="5454" y1="5662" x2="5488" y2= "5600" />
-   <line class="fil0 str0" x1="5488" y1="5600" x2="5530" y2= "5544" />
-   <line class="fil0 str0" x1="5530" y1="5544" x2="5579" y2= "5493" />
-   <line class="fil0 str0" x1="5579" y1="5493" x2="5635" y2= "5449" />
-   <line class="fil0 str0" x1="5635" y1="5449" x2="5695" y2= "5413" />
-   <line class="fil0 str0" x1="5695" y1="5413" x2="5759" y2= "5384" />
-   <line class="fil0 str0" x1="5759" y1="5384" x2="5827" y2= "5364" />
-   <line class="fil0 str0" x1="5827" y1="5364" x2="5896" y2= "5353" />
-   <line class="fil0 str0" x1="5896" y1="5353" x2="5967" y2= "5350" />
-   <line class="fil0 str0" x1="5967" y1="5350" x2="6037" y2= "5357" />
-   <line class="fil0 str0" x1="6037" y1="5357" x2="6106" y2= "5373" />
-   <line class="fil0 str0" x1="6106" y1="5373" x2="6172" y2= "5397" />
-   <line class="fil0 str0" x1="6172" y1="5397" x2="6234" y2= "5430" />
-   <line class="fil0 str0" x1="6234" y1="5430" x2="6292" y2= "5470" />
-   <line class="fil0 str0" x1="6292" y1="5470" x2="6344" y2= "5518" />
-   <line class="fil0 str0" x1="6344" y1="5518" x2="6390" y2= "5571" />
-   <line class="fil0 str0" x1="6390" y1="5571" x2="6428" y2= "5630" />
-   <line class="fil0 str0" x1="6428" y1="5630" x2="6459" y2= "5694" />
-   <line class="fil0 str0" x1="6459" y1="5694" x2="6481" y2= "5761" />
-   <line class="fil0 str0" x1="6481" y1="5761" x2="6495" y2= "5830" />
-   <line class="fil0 str0" x1="6495" y1="5830" x2="6499" y2= "5900" />
-   <line class="fil0 str0" x1="6499" y1="5900" x2="6495" y2= "5970" />
-   <line class="fil0 str0" x1="6495" y1="5970" x2="6481" y2= "6040" />
-   <line class="fil0 str0" x1="6481" y1="6040" x2="6459" y2= "6107" />
-   <line class="fil0 str0" x1="6459" y1="6107" x2="6428" y2= "6170" />
-   <line class="fil0 str0" x1="6428" y1="6170" x2="6390" y2= "6229" />
-   <line class="fil0 str0" x1="6390" y1="6229" x2="6344" y2= "6283" />
-   <line class="fil0 str0" x1="6344" y1="6283" x2="6292" y2= "6330" />
-   <line class="fil0 str0" x1="6292" y1="6330" x2="6234" y2= "6370" />
-   <line class="fil0 str0" x1="6234" y1="6370" x2="6172" y2= "6403" />
-   <line class="fil0 str0" x1="6172" y1="6403" x2="6106" y2= "6427" />
-   <line class="fil0 str0" x1="6106" y1="6427" x2="6037" y2= "6443" />
-   <line class="fil0 str0" x1="6037" y1="6443" x2="5967" y2= "6450" />
-   <line class="fil0 str0" x1="5967" y1="6450" x2="5896" y2= "6448" />
-   <line class="fil0 str0" x1="5896" y1="6448" x2="5827" y2= "6436" />
-   <line class="fil0 str0" x1="5827" y1="6436" x2="5759" y2= "6416" />
-   <line class="fil0 str0" x1="5759" y1="6416" x2="5695" y2= "6388" />
-   <line class="fil0 str0" x1="5695" y1="6388" x2="5635" y2= "6351" />
-   <line class="fil0 str0" x1="5635" y1="6351" x2="5579" y2= "6307" />
-   <line class="fil0 str0" x1="5579" y1="6307" x2="5530" y2= "6257" />
-   <line class="fil0 str0" x1="5530" y1="6257" x2="5488" y2= "6200" />
-   <line class="fil0 str0" x1="5488" y1="6200" x2="5454" y2= "6139" />
-   <line class="fil0 str0" x1="5454" y1="6139" x2="5427" y2= "6073" />
-   <line class="fil0 str0" x1="5427" y1="6073" x2="5409" y2= "6005" />
-   <line class="fil0 str0" x1="5409" y1="6005" x2="5400" y2= "5935" />
-   <line class="fil0 str0" x1="7000" y1="5935" x2="7000" y2= "5865" />
-   <line class="fil0 str0" x1="7000" y1="5865" x2="7009" y2= "5795" />
-   <line class="fil0 str0" x1="7009" y1="5795" x2="7027" y2= "5727" />
-   <line class="fil0 str0" x1="7027" y1="5727" x2="7054" y2= "5662" />
-   <line class="fil0 str0" x1="7054" y1="5662" x2="7088" y2= "5600" />
-   <line class="fil0 str0" x1="7088" y1="5600" x2="7130" y2= "5544" />
-   <line class="fil0 str0" x1="7130" y1="5544" x2="7179" y2= "5493" />
-   <line class="fil0 str0" x1="7179" y1="5493" x2="7235" y2= "5449" />
-   <line class="fil0 str0" x1="7235" y1="5449" x2="7295" y2= "5413" />
-   <line class="fil0 str0" x1="7295" y1="5413" x2="7359" y2= "5384" />
-   <line class="fil0 str0" x1="7359" y1="5384" x2="7427" y2= "5364" />
-   <line class="fil0 str0" x1="7427" y1="5364" x2="7496" y2= "5353" />
-   <line class="fil0 str0" x1="7496" y1="5353" x2="7567" y2= "5350" />
-   <line class="fil0 str0" x1="7567" y1="5350" x2="7637" y2= "5357" />
-   <line class="fil0 str0" x1="7637" y1="5357" x2="7706" y2= "5373" />
-   <line class="fil0 str0" x1="7706" y1="5373" x2="7772" y2= "5397" />
-   <line class="fil0 str0" x1="7772" y1="5397" x2="7834" y2= "5430" />
-   <line class="fil0 str0" x1="7834" y1="5430" x2="7892" y2= "5470" />
-   <line class="fil0 str0" x1="7892" y1="5470" x2="7944" y2= "5518" />
-   <line class="fil0 str0" x1="7944" y1="5518" x2="7990" y2= "5571" />
-   <line class="fil0 str0" x1="7990" y1="5571" x2="8028" y2= "5630" />
-   <line class="fil0 str0" x1="8028" y1="5630" x2="8059" y2= "5694" />
-   <line class="fil0 str0" x1="8059" y1="5694" x2="8081" y2= "5761" />
-   <line class="fil0 str0" x1="8081" y1="5761" x2="8095" y2= "5830" />
-   <line class="fil0 str0" x1="8095" y1="5830" x2="8099" y2= "5900" />
-   <line class="fil0 str0" x1="8099" y1="5900" x2="8095" y2= "5970" />
-   <line class="fil0 str0" x1="8095" y1="5970" x2="8081" y2= "6040" />
-   <line class="fil0 str0" x1="8081" y1="6040" x2="8059" y2= "6107" />
-   <line class="fil0 str0" x1="8059" y1="6107" x2="8028" y2= "6170" />
-   <line class="fil0 str0" x1="8028" y1="6170" x2="7990" y2= "6229" />
-   <line class="fil0 str0" x1="7990" y1="6229" x2="7944" y2= "6283" />
-   <line class="fil0 str0" x1="7944" y1="6283" x2="7892" y2= "6330" />
-   <line class="fil0 str0" x1="7892" y1="6330" x2="7834" y2= "6370" />
-   <line class="fil0 str0" x1="7834" y1="6370" x2="7772" y2= "6403" />
-   <line class="fil0 str0" x1="7772" y1="6403" x2="7706" y2= "6427" />
-   <line class="fil0 str0" x1="7706" y1="6427" x2="7637" y2= "6443" />
-   <line class="fil0 str0" x1="7637" y1="6443" x2="7567" y2= "6450" />
-   <line class="fil0 str0" x1="7567" y1="6450" x2="7496" y2= "6448" />
-   <line class="fil0 str0" x1="7496" y1="6448" x2="7427" y2= "6436" />
-   <line class="fil0 str0" x1="7427" y1="6436" x2="7359" y2= "6416" />
-   <line class="fil0 str0" x1="7359" y1="6416" x2="7295" y2= "6388" />
-   <line class="fil0 str0" x1="7295" y1="6388" x2="7235" y2= "6351" />
-   <line class="fil0 str0" x1="7235" y1="6351" x2="7179" y2= "6307" />
-   <line class="fil0 str0" x1="7179" y1="6307" x2="7130" y2= "6257" />
-   <line class="fil0 str0" x1="7130" y1="6257" x2="7088" y2= "6200" />
-   <line class="fil0 str0" x1="7088" y1="6200" x2="7054" y2= "6139" />
-   <line class="fil0 str0" x1="7054" y1="6139" x2="7027" y2= "6073" />
-   <line class="fil0 str0" x1="7027" y1="6073" x2="7009" y2= "6005" />
-   <line class="fil0 str0" x1="7009" y1="6005" x2="7000" y2= "5935" />
+  <g id="_241235688">
+   <line class="fil0 str2" x1="5099" y1="9190" x2="8399" y2= "9190" />
+   <line class="fil0 str2" x1="8399" y1="9190" x2="8399" y2= "6675" />
+   <line class="fil0 str2" x1="8399" y1="6675" x2="8549" y2= "6675" />
+   <line class="fil0 str2" x1="8549" y1="6675" x2="8549" y2= "6195" />
+   <line class="fil0 str2" x1="8549" y1="6195" x2="8399" y2= "6195" />
+   <line class="fil0 str2" x1="8399" y1="6195" x2="8399" y2= "4470" />
+   <line class="fil0 str2" x1="8399" y1="4470" x2="5099" y2= "4470" />
+   <line class="fil0 str2" x1="5099" y1="4470" x2="5099" y2= "9190" />
+   <line class="fil0 str2" x1="5400" y1="5935" x2="5400" y2= "5865" />
+   <line class="fil0 str2" x1="5400" y1="5865" x2="5409" y2= "5795" />
+   <line class="fil0 str2" x1="5409" y1="5795" x2="5427" y2= "5727" />
+   <line class="fil0 str2" x1="5427" y1="5727" x2="5454" y2= "5662" />
+   <line class="fil0 str2" x1="5454" y1="5662" x2="5488" y2= "5600" />
+   <line class="fil0 str2" x1="5488" y1="5600" x2="5530" y2= "5544" />
+   <line class="fil0 str2" x1="5530" y1="5544" x2="5579" y2= "5493" />
+   <line class="fil0 str2" x1="5579" y1="5493" x2="5635" y2= "5449" />
+   <line class="fil0 str2" x1="5635" y1="5449" x2="5695" y2= "5413" />
+   <line class="fil0 str2" x1="5695" y1="5413" x2="5759" y2= "5384" />
+   <line class="fil0 str2" x1="5759" y1="5384" x2="5827" y2= "5364" />
+   <line class="fil0 str2" x1="5827" y1="5364" x2="5896" y2= "5353" />
+   <line class="fil0 str2" x1="5896" y1="5353" x2="5967" y2= "5350" />
+   <line class="fil0 str2" x1="5967" y1="5350" x2="6037" y2= "5357" />
+   <line class="fil0 str2" x1="6037" y1="5357" x2="6106" y2= "5373" />
+   <line class="fil0 str2" x1="6106" y1="5373" x2="6172" y2= "5397" />
+   <line class="fil0 str2" x1="6172" y1="5397" x2="6234" y2= "5430" />
+   <line class="fil0 str2" x1="6234" y1="5430" x2="6292" y2= "5470" />
+   <line class="fil0 str2" x1="6292" y1="5470" x2="6344" y2= "5518" />
+   <line class="fil0 str2" x1="6344" y1="5518" x2="6390" y2= "5571" />
+   <line class="fil0 str2" x1="6390" y1="5571" x2="6428" y2= "5630" />
+   <line class="fil0 str2" x1="6428" y1="5630" x2="6459" y2= "5694" />
+   <line class="fil0 str2" x1="6459" y1="5694" x2="6481" y2= "5761" />
+   <line class="fil0 str2" x1="6481" y1="5761" x2="6495" y2= "5830" />
+   <line class="fil0 str2" x1="6495" y1="5830" x2="6499" y2= "5900" />
+   <line class="fil0 str2" x1="6499" y1="5900" x2="6495" y2= "5970" />
+   <line class="fil0 str2" x1="6495" y1="5970" x2="6481" y2= "6040" />
+   <line class="fil0 str2" x1="6481" y1="6040" x2="6459" y2= "6107" />
+   <line class="fil0 str2" x1="6459" y1="6107" x2="6428" y2= "6170" />
+   <line class="fil0 str2" x1="6428" y1="6170" x2="6390" y2= "6229" />
+   <line class="fil0 str2" x1="6390" y1="6229" x2="6344" y2= "6283" />
+   <line class="fil0 str2" x1="6344" y1="6283" x2="6292" y2= "6330" />
+   <line class="fil0 str2" x1="6292" y1="6330" x2="6234" y2= "6370" />
+   <line class="fil0 str2" x1="6234" y1="6370" x2="6172" y2= "6403" />
+   <line class="fil0 str2" x1="6172" y1="6403" x2="6106" y2= "6427" />
+   <line class="fil0 str2" x1="6106" y1="6427" x2="6037" y2= "6443" />
+   <line class="fil0 str2" x1="6037" y1="6443" x2="5967" y2= "6450" />
+   <line class="fil0 str2" x1="5967" y1="6450" x2="5896" y2= "6448" />
+   <line class="fil0 str2" x1="5896" y1="6448" x2="5827" y2= "6436" />
+   <line class="fil0 str2" x1="5827" y1="6436" x2="5759" y2= "6416" />
+   <line class="fil0 str2" x1="5759" y1="6416" x2="5695" y2= "6388" />
+   <line class="fil0 str2" x1="5695" y1="6388" x2="5635" y2= "6351" />
+   <line class="fil0 str2" x1="5635" y1="6351" x2="5579" y2= "6307" />
+   <line class="fil0 str2" x1="5579" y1="6307" x2="5530" y2= "6257" />
+   <line class="fil0 str2" x1="5530" y1="6257" x2="5488" y2= "6200" />
+   <line class="fil0 str2" x1="5488" y1="6200" x2="5454" y2= "6139" />
+   <line class="fil0 str2" x1="5454" y1="6139" x2="5427" y2= "6073" />
+   <line class="fil0 str2" x1="5427" y1="6073" x2="5409" y2= "6005" />
+   <line class="fil0 str2" x1="5409" y1="6005" x2="5400" y2= "5935" />
+   <line class="fil0 str2" x1="7000" y1="5935" x2="7000" y2= "5865" />
+   <line class="fil0 str2" x1="7000" y1="5865" x2="7009" y2= "5795" />
+   <line class="fil0 str2" x1="7009" y1="5795" x2="7027" y2= "5727" />
+   <line class="fil0 str2" x1="7027" y1="5727" x2="7054" y2= "5662" />
+   <line class="fil0 str2" x1="7054" y1="5662" x2="7088" y2= "5600" />
+   <line class="fil0 str2" x1="7088" y1="5600" x2="7130" y2= "5544" />
+   <line class="fil0 str2" x1="7130" y1="5544" x2="7179" y2= "5493" />
+   <line class="fil0 str2" x1="7179" y1="5493" x2="7235" y2= "5449" />
+   <line class="fil0 str2" x1="7235" y1="5449" x2="7295" y2= "5413" />
+   <line class="fil0 str2" x1="7295" y1="5413" x2="7359" y2= "5384" />
+   <line class="fil0 str2" x1="7359" y1="5384" x2="7427" y2= "5364" />
+   <line class="fil0 str2" x1="7427" y1="5364" x2="7496" y2= "5353" />
+   <line class="fil0 str2" x1="7496" y1="5353" x2="7567" y2= "5350" />
+   <line class="fil0 str2" x1="7567" y1="5350" x2="7637" y2= "5357" />
+   <line class="fil0 str2" x1="7637" y1="5357" x2="7706" y2= "5373" />
+   <line class="fil0 str2" x1="7706" y1="5373" x2="7772" y2= "5397" />
+   <line class="fil0 str2" x1="7772" y1="5397" x2="7834" y2= "5430" />
+   <line class="fil0 str2" x1="7834" y1="5430" x2="7892" y2= "5470" />
+   <line class="fil0 str2" x1="7892" y1="5470" x2="7944" y2= "5518" />
+   <line class="fil0 str2" x1="7944" y1="5518" x2="7990" y2= "5571" />
+   <line class="fil0 str2" x1="7990" y1="5571" x2="8028" y2= "5630" />
+   <line class="fil0 str2" x1="8028" y1="5630" x2="8059" y2= "5694" />
+   <line class="fil0 str2" x1="8059" y1="5694" x2="8081" y2= "5761" />
+   <line class="fil0 str2" x1="8081" y1="5761" x2="8095" y2= "5830" />
+   <line class="fil0 str2" x1="8095" y1="5830" x2="8099" y2= "5900" />
+   <line class="fil0 str2" x1="8099" y1="5900" x2="8095" y2= "5970" />
+   <line class="fil0 str2" x1="8095" y1="5970" x2="8081" y2= "6040" />
+   <line class="fil0 str2" x1="8081" y1="6040" x2="8059" y2= "6107" />
+   <line class="fil0 str2" x1="8059" y1="6107" x2="8028" y2= "6170" />
+   <line class="fil0 str2" x1="8028" y1="6170" x2="7990" y2= "6229" />
+   <line class="fil0 str2" x1="7990" y1="6229" x2="7944" y2= "6283" />
+   <line class="fil0 str2" x1="7944" y1="6283" x2="7892" y2= "6330" />
+   <line class="fil0 str2" x1="7892" y1="6330" x2="7834" y2= "6370" />
+   <line class="fil0 str2" x1="7834" y1="6370" x2="7772" y2= "6403" />
+   <line class="fil0 str2" x1="7772" y1="6403" x2="7706" y2= "6427" />
+   <line class="fil0 str2" x1="7706" y1="6427" x2="7637" y2= "6443" />
+   <line class="fil0 str2" x1="7637" y1="6443" x2="7567" y2= "6450" />
+   <line class="fil0 str2" x1="7567" y1="6450" x2="7496" y2= "6448" />
+   <line class="fil0 str2" x1="7496" y1="6448" x2="7427" y2= "6436" />
+   <line class="fil0 str2" x1="7427" y1="6436" x2="7359" y2= "6416" />
+   <line class="fil0 str2" x1="7359" y1="6416" x2="7295" y2= "6388" />
+   <line class="fil0 str2" x1="7295" y1="6388" x2="7235" y2= "6351" />
+   <line class="fil0 str2" x1="7235" y1="6351" x2="7179" y2= "6307" />
+   <line class="fil0 str2" x1="7179" y1="6307" x2="7130" y2= "6257" />
+   <line class="fil0 str2" x1="7130" y1="6257" x2="7088" y2= "6200" />
+   <line class="fil0 str2" x1="7088" y1="6200" x2="7054" y2= "6139" />
+   <line class="fil0 str2" x1="7054" y1="6139" x2="7027" y2= "6073" />
+   <line class="fil0 str2" x1="7027" y1="6073" x2="7009" y2= "6005" />
+   <line class="fil0 str2" x1="7009" y1="6005" x2="7000" y2= "5935" />
   </g>
-  <g id="_454047432">
+  <g id="_241254720">
    <g>
-    <path class="fil0 str0" d="M9538 12785c-77,62 -96,172 -45,256 52,85 158,117 249,77 90,-40 137,-142 108,-237 -29,-95 -123,-154 -221,-138"/>
-    <path class="fil0 str0" d="M10042 12606c-89,44 -131,147 -99,241 32,94 129,149 226,129 97,-20 164,-109 157,-208 -8,-99 -87,-177 -186,-182"/>
-    <path class="fil0 str0" d="M10577 12744c-98,11 -173,93 -175,192 -2,99 70,184 168,198 98,14 191,-46 218,-142 27,-95 -21,-196 -113,-235"/>
-    <path class="fil0 str0" d="M11125 12593c-95,-30 -196,16 -238,106 -41,90 -9,197 74,249 84,53 194,35 257,-42 63,-77 59,-188 -9,-260"/>
-    <polyline class="fil0 str0" points="9264,13535 9264,13635 8964,13635 8964,13235 9264,13235 9264,13335 "/>
-    <polyline class="fil0 str0" points="9326,12315 9071,12315 9071,12035 9571,12035 9571,12315 9435,12315 "/>
-    <polyline class="fil0 str0" points="9984,12315 9763,12315 9763,12035 10263,12035 10263,12315 10086,12315 "/>
-    <polyline class="fil0 str0" points="10640,12315 10464,12315 10464,12035 10964,12035 10964,12315 10741,12315 "/>
-    <polyline class="fil0 str0" points="11302,12315 11162,12315 11162,12035 11662,12035 11662,12315 11420,12315 "/>
-    <polyline class="fil0 str0" points="11464,13535 11464,13635 11764,13635 11764,13235 11464,13235 11464,13335 "/>
-    <line class="fil0 str0" x1="9264" y1="13535" x2="11464" y2= "13535" />
-    <line class="fil0 str0" x1="9326" y1="12315" x2="9538" y2= "12785" />
-    <line class="fil0 str0" x1="9984" y1="12315" x2="10042" y2= "12606" />
-    <line class="fil0 str0" x1="10640" y1="12315" x2="10577" y2= "12744" />
-    <line class="fil0 str0" x1="11302" y1="12315" x2="11125" y2= "12593" />
-    <line class="fil0 str0" x1="9629" y1="12744" x2="9435" y2= "12315" />
-    <line class="fil0 str0" x1="10140" y1="12586" x2="10086" y2= "12315" />
-    <line class="fil0 str0" x1="10676" y1="12758" x2="10741" y2= "12315" />
-    <line class="fil0 str0" x1="11210" y1="12647" x2="11420" y2= "12315" />
-    <line class="fil0 str0" x1="11464" y1="13335" x2="9264" y2= "13335" />
-    <path class="fil0 str0" d="M11190 14086c77,-62 96,-172 45,-256 -52,-85 -158,-117 -249,-77 -90,40 -137,142 -108,237 29,95 123,154 221,138"/>
-    <path class="fil0 str0" d="M10687 14264c89,-44 131,-147 99,-241 -32,-94 -129,-149 -226,-129 -97,20 -164,109 -157,208 8,99 87,177 186,182"/>
-    <path class="fil0 str0" d="M10151 14127c98,-11 173,-93 175,-192 2,-99 -70,-184 -168,-198 -98,-14 -191,46 -218,142 -27,95 21,196 113,235"/>
-    <path class="fil0 str0" d="M9603 14277c95,30 196,-16 238,-106 41,-90 9,-197 -74,-249 -84,-53 -194,-35 -257,42 -63,77 -59,188 9,260"/>
-    <polyline class="fil0 str0" points="11403,14556 11657,14556 11657,14835 11157,14835 11157,14556 11293,14556 "/>
-    <polyline class="fil0 str0" points="10745,14555 10965,14555 10965,14835 10465,14835 10465,14555 10643,14555 "/>
-    <polyline class="fil0 str0" points="10089,14555 10265,14555 10265,14835 9765,14835 9765,14555 9988,14555 "/>
-    <polyline class="fil0 str0" points="9426,14555 9566,14555 9566,14835 9066,14835 9066,14555 9308,14555 "/>
-    <line class="fil0 str0" x1="11403" y1="14556" x2="11190" y2= "14086" />
-    <line class="fil0 str0" x1="11099" y1="14127" x2="11293" y2= "14556" />
-    <line class="fil0 str0" x1="10745" y1="14555" x2="10687" y2= "14264" />
-    <line class="fil0 str0" x1="10589" y1="14284" x2="10643" y2= "14555" />
-    <line class="fil0 str0" x1="10089" y1="14555" x2="10151" y2= "14127" />
-    <line class="fil0 str0" x1="10052" y1="14112" x2="9988" y2= "14555" />
-    <line class="fil0 str0" x1="9426" y1="14555" x2="9603" y2= "14277" />
-    <line class="fil0 str0" x1="9518" y1="14224" x2="9308" y2= "14555" />
-    <path class="fil0 str0" d="M9191 14468c0,-28 -22,-50 -50,-50 -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50z"/>
-    <polyline class="fil0 str0" points="11567,12390 11532,12390 11532,12420 11567,12420 "/>
-    <polyline class="fil0 str0" points="11567,12420 11567,12455 11597,12455 11597,12420 "/>
-    <polyline class="fil0 str0" points="11597,12420 11632,12420 11632,12390 11597,12390 "/>
-    <polyline class="fil0 str0" points="11597,12390 11597,12355 11567,12355 11567,12390 "/>
+    <path class="fil0 str3" d="M11190 14086c77,-62 96,-172 45,-256 -52,-85 -158,-117 -249,-77 -90,40 -137,142 -108,237 29,95 123,154 221,138"/>
+    <path class="fil0 str3" d="M10687 14264c89,-44 131,-147 99,-241 -32,-94 -129,-149 -226,-129 -97,20 -164,109 -157,208 8,99 87,177 186,182"/>
+    <path class="fil0 str3" d="M10151 14127c98,-11 173,-93 175,-192 2,-99 -70,-184 -168,-198 -98,-14 -191,46 -218,142 -27,95 21,196 113,235"/>
+    <path class="fil0 str3" d="M9603 14277c95,30 196,-16 238,-106 41,-90 9,-197 -74,-249 -84,-53 -194,-35 -257,42 -63,77 -59,188 9,260"/>
+    <polyline class="fil0 str3" points="11464,13335 11464,13235 11764,13235 11764,13635 11464,13635 11464,13535 "/>
+    <polyline class="fil0 str3" points="11403,14556 11658,14556 11658,14835 11158,14835 11158,14556 11293,14556 "/>
+    <polyline class="fil0 str3" points="10745,14555 10966,14555 10966,14835 10466,14835 10466,14555 10643,14555 "/>
+    <polyline class="fil0 str3" points="10089,14555 10265,14555 10265,14835 9765,14835 9765,14555 9988,14555 "/>
+    <polyline class="fil0 str3" points="9426,14555 9566,14555 9566,14835 9066,14835 9066,14555 9308,14555 "/>
+    <polyline class="fil0 str3" points="9264,13335 9264,13235 8964,13235 8964,13635 9264,13635 9264,13535 "/>
+    <line class="fil0 str3" x1="11464" y1="13335" x2="9264" y2= "13335" />
+    <line class="fil0 str3" x1="11403" y1="14556" x2="11190" y2= "14086" />
+    <line class="fil0 str3" x1="10745" y1="14555" x2="10687" y2= "14264" />
+    <line class="fil0 str3" x1="10089" y1="14555" x2="10151" y2= "14127" />
+    <line class="fil0 str3" x1="9426" y1="14555" x2="9603" y2= "14277" />
+    <line class="fil0 str3" x1="11099" y1="14127" x2="11293" y2= "14556" />
+    <line class="fil0 str3" x1="10589" y1="14284" x2="10643" y2= "14555" />
+    <line class="fil0 str3" x1="10052" y1="14112" x2="9988" y2= "14555" />
+    <line class="fil0 str3" x1="9519" y1="14224" x2="9308" y2= "14555" />
+    <line class="fil0 str3" x1="9264" y1="13535" x2="11464" y2= "13535" />
+    <path class="fil0 str3" d="M9538 12785c-77,62 -96,172 -45,256 52,85 158,117 249,77 90,-40 137,-142 108,-237 -29,-95 -123,-154 -221,-138"/>
+    <path class="fil0 str3" d="M10042 12606c-89,44 -131,147 -99,241 32,94 129,149 226,129 97,-20 164,-109 157,-208 -8,-99 -87,-177 -186,-182"/>
+    <path class="fil0 str3" d="M10577 12744c-98,11 -173,93 -175,192 -2,99 70,184 168,198 98,14 191,-46 218,-142 27,-95 -21,-196 -113,-235"/>
+    <path class="fil0 str3" d="M11125 12593c-95,-30 -196,16 -238,106 -41,90 -9,197 74,249 84,53 194,35 257,-42 63,-77 59,-188 -9,-260"/>
+    <polyline class="fil0 str3" points="9326,12315 9071,12315 9071,12035 9571,12035 9571,12315 9435,12315 "/>
+    <polyline class="fil0 str3" points="9984,12315 9763,12315 9763,12035 10263,12035 10263,12315 10086,12315 "/>
+    <polyline class="fil0 str3" points="10640,12315 10464,12315 10464,12035 10964,12035 10964,12315 10741,12315 "/>
+    <polyline class="fil0 str3" points="11302,12315 11162,12315 11162,12035 11662,12035 11662,12315 11420,12315 "/>
+    <line class="fil0 str3" x1="9326" y1="12315" x2="9538" y2= "12785" />
+    <line class="fil0 str3" x1="9629" y1="12744" x2="9435" y2= "12315" />
+    <line class="fil0 str3" x1="9984" y1="12315" x2="10042" y2= "12606" />
+    <line class="fil0 str3" x1="10140" y1="12586" x2="10086" y2= "12315" />
+    <line class="fil0 str3" x1="10640" y1="12315" x2="10577" y2= "12744" />
+    <line class="fil0 str3" x1="10676" y1="12758" x2="10741" y2= "12315" />
+    <line class="fil0 str3" x1="11302" y1="12315" x2="11125" y2= "12593" />
+    <line class="fil0 str3" x1="11210" y1="12647" x2="11420" y2= "12315" />
+    <path class="fil0 str3" d="M11537 12402c0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 -28,0 -50,22 -50,50z"/>
+    <polyline class="fil0 str3" points="9161,14480 9196,14480 9196,14450 9161,14450 "/>
+    <polyline class="fil0 str3" points="9161,14450 9161,14415 9131,14415 9131,14450 "/>
+    <polyline class="fil0 str3" points="9131,14450 9096,14450 9096,14480 9131,14480 "/>
+    <polyline class="fil0 str3" points="9131,14480 9131,14515 9161,14515 9161,14480 "/>
    </g>
-   <rect class="fil0 str1" x="8964" y="12035" width="2800" height="2800"/>
+   <rect class="fil0 str4" x="8964" y="12035" width="2800" height="2800"/>
   </g>
- </g>
- <g id="Layer_x0020_1_0">
-  <metadata id="CorelCorpID_1Corel-Layer"/>
-  <line class="fil0 str0" x1="13329" y1="4470" x2="13329" y2= "9190" />
-  <line class="fil0 str0" x1="13329" y1="9190" x2="17259" y2= "9190" />
-  <line class="fil0 str0" x1="17259" y1="9190" x2="17259" y2= "4470" />
-  <line class="fil0 str0" x1="17259" y1="4470" x2="13329" y2= "4470" />
-  <line class="fil0 str0" x1="14194" y1="5335" x2="16394" y2= "5335" />
-  <line class="fil0 str0" x1="16394" y1="5335" x2="16394" y2= "7535" />
-  <line class="fil0 str0" x1="16394" y1="7535" x2="14194" y2= "7535" />
-  <line class="fil0 str0" x1="14194" y1="7535" x2="14194" y2= "5335" />
+  <g id="_241251408">
+   <line class="fil0 str5" x1="8399" y1="4470" x2="8399" y2= "9190" />
+   <line class="fil0 str5" x1="8399" y1="9190" x2="12329" y2= "9190" />
+   <line class="fil0 str5" x1="12329" y1="9190" x2="12329" y2= "4470" />
+   <line class="fil0 str5" x1="12329" y1="4470" x2="8399" y2= "4470" />
+   <line class="fil0 str5" x1="9264" y1="5335" x2="11464" y2= "5335" />
+   <line class="fil0 str5" x1="11464" y1="5335" x2="11464" y2= "7535" />
+   <line class="fil0 str5" x1="11464" y1="7535" x2="9264" y2= "7535" />
+   <line class="fil0 str5" x1="9264" y1="7535" x2="9264" y2= "5335" />
+  </g>
+  <g id="_241249560">
+   <line class="fil0 str5" x1="8399" y1="11470" x2="8399" y2= "16190" />
+   <line class="fil0 str5" x1="8399" y1="16190" x2="12329" y2= "16190" />
+   <line class="fil0 str5" x1="12329" y1="16190" x2="12329" y2= "11470" />
+   <line class="fil0 str5" x1="12329" y1="11470" x2="8399" y2= "11470" />
+   <line class="fil0 str5" x1="9264" y1="12335" x2="11464" y2= "12335" />
+   <line class="fil0 str5" x1="11464" y1="12335" x2="11464" y2= "14535" />
+   <line class="fil0 str5" x1="11464" y1="14535" x2="9264" y2= "14535" />
+   <line class="fil0 str5" x1="9264" y1="14535" x2="9264" y2= "12335" />
+  </g>
  </g>
 </svg>

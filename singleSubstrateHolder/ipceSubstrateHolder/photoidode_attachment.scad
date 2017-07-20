@@ -29,8 +29,9 @@ module photodiodeAttachment(){
             translate([diodeSocketDiam / 2 + diodeGap / 2, -(cubeOuter+spacerThickness)/2 + (opticAxisHeight-stageLowerHeight), 0]) diodeSocketWithLegs();
         }
 
-        // add alignment notch
-            translate([(diodeSocketDiam*3+wallThickness/2)/2, (spacerThickness)/2, 0]) cube([wallThickness/2, keyWidth, diodeHeight+wallThickness],center=true);
+            // add alignment notch
+            localKeyWidth = keyWidth-capTol;
+            translate([(diodeSocketDiam*3+wallThickness/2)/2, (spacerThickness)/2, 0]) cube([wallThickness/2, localKeyWidth, diodeHeight+wallThickness],center=true);
     }
 }
 photodiodeAttachment();

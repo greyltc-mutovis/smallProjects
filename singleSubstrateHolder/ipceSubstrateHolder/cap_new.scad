@@ -41,4 +41,4 @@ module cap(){
 cap();
 
 //create a 2d projection at z=0. Translate or rotate to get projection at different positions/orientations
-//projection(cut=true) translate([0,0,0]) rotate([0,0,0]) cap();
+//projection(cut=true) translate([0,0,3]) rotate([0,0,0]) cap();
