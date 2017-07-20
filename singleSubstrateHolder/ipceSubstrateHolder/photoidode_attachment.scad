@@ -30,7 +30,7 @@ module photodiodeAttachment(){
         }
 
         // add alignment notch
-            translate([(diodeSocketDiam*3+wallThickness)/2, (spacerThickness)/2, 0]) cube([wallThickness, keyWidth, diodeHeight+wallThickness],center=true);
+            translate([(diodeSocketDiam*3+wallThickness/2)/2, (spacerThickness)/2, 0]) cube([wallThickness/2, keyWidth, diodeHeight+wallThickness],center=true);
     }
 }
 photodiodeAttachment();
