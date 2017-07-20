@@ -16,7 +16,7 @@ keyHeight = 3; // for orientation key between cap and body
 //variables for optical alignment
 opticAxisHeight=41; //height of optic axis above stage base
 pixelHeight=19; //height of pixels from substrate edge
-focusFromUpper=9; //gap from inside of stage upper lip to focal plane
+focusFromUpper=5.6; //gap from inside of stage upper lip to focal plane
 
 //variables for the stage
 stageLowerWidth=43.8; //width of the lower gap in the stage
@@ -28,7 +28,7 @@ stageUpperHeight=16.3; //height of upper lip above stage base
 diodeSocketDiam=11; //diameter of socket for reference photodiode
 diodeHeight=4; //height of the diode photodiode
 diodeGap=5; //gap between the two photodiodes
-diodeLegDiam=1; //diameter of hole for photodiode leg
+diodeLegDiam=2; //diameter of hole for photodiode leg
 diodeLegGap=5; //centre-centre spacing for photodiode legs
 
 //variables for cap
