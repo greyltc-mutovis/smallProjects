@@ -1,0 +1,5 @@
+Thickness = 5 mm
+
+O-ring aperture depth = 2 mm
+
+Screw hole depth (M4 clearance) = 5 mm

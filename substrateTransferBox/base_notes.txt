@@ -1,0 +1,7 @@
+Thickness = 6 mm
+
+O-ring aperture depth = 2 mm
+
+Substrate aperture depth = 3 mm
+
+Screw hole depth (M4 tapped) = 6 mm
