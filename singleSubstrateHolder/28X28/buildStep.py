@@ -12,7 +12,7 @@ import ezFreeCAD as ezfc
 cutterD = 6.35
 cutterR = cutterD/2
 
-recessDim = [30.1,30.1,4] # mm
+recessDim = [28.1,28.1,4] # mm
 
 outerBlockDim = [38,38,6]
 
