@@ -7,7 +7,7 @@
 // lid parameters
 l = 264;
 w = 66;
-d = 4;
+d = 5;
 
 // o-ring parameters
 oring_inner_l = 241;
@@ -19,7 +19,7 @@ oring_corner_r = 12;
 
 // screw parameters
 screw_buffer = 4;
-clearance_diameter = 4.2;
+clearance_diameter = 4.5;
 
 // drill parameters
 drill_diameter = 5;
