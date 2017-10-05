@@ -20,7 +20,7 @@ substrates_total_l = (substrate_l + substrate_tol + substrate_spacing) * number_
 substrates_total_w = substrate_w + substrate_tol;
 
 // o-ring parameters
-oring_diam = 5.3;
+oring_diam = 6; // including tolerance
 oring_inner_l = 239;
 oring_inner_w = 38;
 oring_outer_l = oring_inner_l + 2 * oring_diam;

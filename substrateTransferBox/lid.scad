@@ -10,7 +10,7 @@ w = 66;
 d = 5;
 
 // o-ring parameters
-oring_diam = 5.3;
+oring_diam = 6; // including tolerance
 oring_inner_l = 239;
 oring_inner_w = 38;
 oring_outer_l = oring_inner_l + 2 * oring_diam;
