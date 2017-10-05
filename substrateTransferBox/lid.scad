@@ -10,10 +10,11 @@ w = 66;
 d = 5;
 
 // o-ring parameters
-oring_inner_l = 241;
-oring_inner_w = 39.4;
-oring_outer_l = 251.6;
-oring_outer_w = 50;
+oring_diam = 5.3;
+oring_inner_l = 239;
+oring_inner_w = 38;
+oring_outer_l = oring_inner_l + 2 * oring_diam;
+oring_outer_w = oring_inner_w + 2 * oring_diam;
 oring_d = 2;
 oring_corner_r = 12;
 
