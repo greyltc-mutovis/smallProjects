@@ -1,13 +1,19 @@
 include <meta.scad>;
 
 $fn=50;
-deviceDim=28; //mm, x,y dimension of substrate, pcb
-//deviceDim=30; //mm, x,y dimension of substrate, pcb
+//deviceDim=28; //mm, x,y dimension of substrate, pcb
+deviceDim=30; //mm, x,y dimension of substrate, pcb
 capFit=0.4; //mm, trace a circle of this radius around the crown pieces to define the cap cutouts
-capX = 39;//mm
-capY = 60;//mm
+//capX = 39;//mm
+//capY = 60;//mm
 
-windowDim = deviceDim-4.5*2;
+vDeviceDim=deviceDim+deviceFudge;
+xyLen=vDeviceDim+wallT*2;
+
+capX = xyLen;
+capY = xyLen;
+
+windowDim = deviceDim-4*2;
 capT = 5;
 
 difference(){
