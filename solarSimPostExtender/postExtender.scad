@@ -1,8 +1,8 @@
 extra_height = 2.5; //mm
 post_diameter = 6; //mm
-post_diameter_lower = 6.1; //mm
+post_diameter_lower = 6.4; //mm
 post_spacing = 24.5; //mm
-new_post_height = 5; //mm
+new_post_height = 10; //mm
 block_width = 10;
 block_length = 40;
 block_height = 10;
