@@ -34,4 +34,4 @@ difference(){
     // glass pocket
     translate([(x-pocket_dim)/2,(y-pocket_dim)/2,0]) cube([pocket_dim,pocket_dim,glass_thickness]);
     
-}
+}fsd
